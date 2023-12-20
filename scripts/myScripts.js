@@ -346,6 +346,9 @@ function switchLanguage(evt) {
   var s=evt.target.src;
   var lang=s.substring(s.lastIndexOf("/")+1,s.indexOf("."));
   language=languages[lang];
+  console.log("lang: "+lang);
+  console.log("languages: "+languages);
+  console.log("language: "+language);
   renameDefaults();
   renameActualPerson();
   renameActivityHints(lang);
