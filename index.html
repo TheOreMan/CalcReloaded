@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Virtual Tabs</title>
+    <link rel="stylesheet" href="styles\myStyles.css">
+    <script src="scripts\jszip.js"></script>
+    <script src="scripts\xlsx.js"></script>
+    <script src="scripts\FileSaver.js"></script>
+    <script src="scripts\activities_work.js"></script>
+    <script src="scripts\activities_sport.js"></script>
+    <script src="scripts\activities_free.js"></script>
+    <script src="scripts\languages\lat.js"></script>
+    <script src="scripts\languages\eng.js"></script>
+    <script src="scripts\languages\ita.js"></script>
+    <script src="scripts\languages\esp.js"></script>
+    <script src="scripts\languages\fra.js"></script>
+    <script src="scripts\languages\vtn.js"></script>
+    <script src="scripts\defaults.js"></script>
+    <script src="scripts\myexcel.js"></script>
+    <script src="scripts\excelHelper.js"></script>
+    <script src="scripts\myScripts.js"></script>
+  </head>
+  <body onload="start()">
+    <div id="languages">
+      <img src="icons\lat.png" title="Latviešu" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\eng.png" title="English" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\ita.png" title="Italiano" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\esp.png" title="Español" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\fra.png" title="Français" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\vtn.png" title="Tiếng Việt" class="flag-icon" onclick="switchLanguage(event)">
+    </div>
+    <div>
+      <div id="intro_header" class="tab-header">
+        <label id="intro_toggle" class="toggle-icon clickable" onclick="clickFirstLevelHeader(event)">+</label>
+        <h2 class="clickable" tag="intro_title" onclick="clickFirstLevelHeader(event)">intro_title</h2>
+      </div>
+      <div class="firstLevelBody" id="intro">
+        <div>
+          <label class="label" tag="id">ID:</label>
+          <input class="input shadowed" type="text" id="id" oninput="attributeChanged(event)">
+        </div>
+        <div>
+          <label class="label" tag="gender">Dzimums:</label>
+          <select class="input shadowed" id="gender" onchange="genderSelected(event)">
+            <option tag="woman">Sieviete</option>
+            <option tag="man">Vīrietis</option>
+          </select>
+        </div>
+        <div>
+          <label class="label" tag="birth_date">Dzimšanas datums:</label>
+          <input class="input shadowed" type="date" id="birthdate" onchange="dateSelected(event)">
+        </div>
+        <div>
+          <label class="label" tag="fill_date">Aptaujas izpildīšanas datums:</label>
+          <input class="input shadowed" type="date" id="filldate" onchange="dateSelected(event)">
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div id="periods_header" class="tab-header">
+        <label id="periods_toggle" class="toggle-icon clickable" onclick="clickFirstLevelHeader(event)">-</label>
+        <h2 class="clickable" tag="periods" onclick="clickFirstLevelHeader(event)">periods</h2>
+        <button class="greenBtn" tag="add_period" onClick="addPeriod(0)">add_period</button>
+        <button id="restorePeriodsBtn" class="hidden greenBtn" tag="restore_period" onClick="restorePeriod()">add_period</button>
+      </div>
+      <div class="firstLevelBody" id="periods">
+      </div>
+    </div>
+
+    <div>
+      <div id="excel_header" class="tab-header">
+        <label id="excel_toggle" class="toggle-icon clickable" onclick="clickFirstLevelHeader(event)">+</label>
+        <h2 class="clickable" tag="excel" onclick="clickFirstLevelHeader(event)">excel</h2>
+      </div>
+      <div class="firstLevelBody" id="excel">
+        <button tag="loadExcel" class="greenBtn" onclick="handleUploadBtnClick();" type=file name="files[]">Load Excel</button>
+        <button tag="generateExcel" class="greenBtn" onclick="saveToExcel();">Save to Excel</button>
+        <button tag="generateReview" class="greenBtn" onclick="generateReview();">Review</button>
+      </div>
+    </div>
+
+    <div>
+      <div id="data_header" class="tab-header">
+        <label id="data_toggle" class="toggle-icon clickable" onclick="clickFirstLevelHeader(event)">+</label>
+        <h2 class="clickable" tag="data_analysis" onclick="clickFirstLevelHeader(event)">data_analysis</h2>
+      </div>
+      <div class="firstLevelBody" id="data">
+        <form name="equation_form">
+          <input type="radio" name="equation" value="eq1" onclick="analyze();">
+          <label for="eq1" class="withoutColon" tag="harris_benedict"></label>
+          <input type="radio" name="equation" value="eq2" checked=true onclick="analyze();">
+          <label for="eq2" class="withoutColon" tag="mifflin"></label>
+          <label class="withoutColon" tag="default"></label>
+        </form>
+        <form name="valueType_form">
+          <input type="radio" name="valueType" id="type1" value="type1" checked=true onclick="analyze();">
+          <label for="type1" class="withoutColon" tag="hours_per_day"></label>
+          <input type="radio" name="valueType" id="type2" value="type2" onclick="analyze();">
+          <label for="type2" class="withoutColon" tag="cals_per_week"></label>
+          <input type="radio" name="valueType" id="type3" value="type3" onclick="analyze();">
+          <label for="type3" class="withoutColon" tag="mets_per_week"></label>
+        </form>
+        <div>
+          <label tag="from">no</label>
+          <input class="input shadowed" type="date" id="interval_from">
+          <label tag="till">līdz</label>
+          <input class="input shadowed" type="date" id="interval_to">
+          <button id="analyzeBtn" tag="analyze" class="greenBtn" onclick="analyze();">Analizēt</button>
+          <br><br>
+        </div>
+        <table id="analyzeTable"></table>
+      </div>
+    </div>
+
+    <div id="modal_restorePeriod" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal_restorePeriod');">&times;</span>
+        <label tag="select_period" class="modalElement"></label>
+   	    <select id="period_list" class="modalElement"></select>
+  	    <button tag="ok" class="modalElement greenBtn" onclick="restorePeriod_final('modal_restorePeriod');">OK</button>
+      </div>
+    </div>
+
+    <div id="modal_addDayType" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal_addDayType');">&times;</span>
+        <label tag="name" class="label modalElement"></label>
+        <input class="input modalElement" type="text" id="newDayTypeName">
+        <br/>
+        <label tag="type" class="label modalElement"></label>
+   	    <select id="dayTypes_list" class="input modalElement">
+          <option tag="workdays"></option>
+          <option tag="vacations"></option>
+        </select>
+  	    <button tag="ok" class="modalElement greenBtn" onclick="addDayType_final('modal_addDayType');">OK</button>
+      </div>
+    </div>
+
+    <div id="modal_addSubField" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal_addSubField');">&times;</span>
+        <label class="label" tag="subcategory">Apakškategorija:</label>
+  	    <input id="subCategoryInput" list="subCategories" size=50>
+  	    </input>
+  	    <datalist id="subCategories">
+  	    </datalist>
+    	  <br>
+        <div id="hint">
+        <label class="label" tag="hint">Mājiens:</label>
+        <input id="hints" list="hintList" size=50>
+  	    </input>
+  	    <datalist id="hintList">
+  	    </datalist>
+        </div>
+    	  <br>
+    	  <button id="addSubField_okBtn" class="greenBtn" onclick="addSubField_final(event);">OK</button>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,271 @@
+h2.input,h4.input {
+  margin-top: 0px;
+}
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+#languages {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.label {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  text-align: right;
+}
+
+.subLabel {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.periodLabel {
+  display: inline-block;
+  width: 150px;
+  margin-right: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.statsLabel {
+  display: inline-block;
+  width: 250px;
+  margin-right: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.commentLabel {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.subFieldDiv {
+  display: block;
+  margin-left: 200px;
+  /*border: 1px solid green;*/
+}
+
+.inline {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.input {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 120px;
+}
+
+.shadowed {
+  box-shadow: 2px 4px 4px black;
+}
+
+.plain {
+  width: auto;
+}
+
+.padded {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.plain_left {
+  width: auto;
+  margin-left: 5px;
+}
+
+.greenBtn{
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  box-shadow: 5px 10px 4px black;
+}
+
+.automatic {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.plainWithMargin {
+  width: auto;
+  margin-left: 5px;
+}
+
+.dayTypeLine {
+  display:inline-block;
+  margin-left: 10px;
+}
+
+.number {
+  width: auto;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fixed {
+  width: 50px;
+}
+
+.comment {
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.flag-icon {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tab-header {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px 10px;
+}
+
+.firstLevelBody {
+  display: none;
+}
+
+.headerButton {
+  margin-left: 10px;
+  height: 20px;
+  display: inline-block;
+}
+
+.editingText {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+.period {
+  border-style: dotted;
+  border-width: 2px;
+  border-color: black;
+  margin: 10px;
+}
+
+.activePeriod {
+  border-style: solid;
+  border-color: green;
+}
+
+#toggle-icon {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.tablinks.active {
+  background-color: green;
+  color: white;
+}
+
+.tablinks {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.visibleIcon {
+  display: inline-block;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 2px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.modalElement {
+  /*display:block;
+  margin-left:auto;*/
+}
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ padding-top: 100px; /* Location of the box */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+ background-color: #fefefe;
+ margin: auto;
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%;
+}
+.close {
+ color: #aaaaaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+.close:hover,
+.close:focus {
+ color: #000;
+ text-decoration: none;
+ cursor: pointer;
+}
