@@ -113,7 +113,6 @@ var languages={
 }
 
 var language=lat;
-console.log(language);
 var subCategories;
 
 function getThreeDigits(i) {
