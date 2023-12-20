@@ -341,7 +341,7 @@ function renameActualPerson() {
   });
 }
 
-function switchLanguage(evt) {
+function switchLanguage(evt) { 
   var s=evt.target.src;
   var lang=s.substring(s.lastIndexOf("/")+1,s.lastIndexOf("."));
   language=languages[lang];
