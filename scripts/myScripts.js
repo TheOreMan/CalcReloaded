@@ -306,6 +306,7 @@ function addPeriod(personNr,dayTypes=dayTypes_default,defaultTypes=true) {
 function renameDefaults() {
   dayTypes_default.forEach((item, i) => {
     var s=language[item.id];
+    console.log(s);
     if (s!="") item.name=s;
   });
   for (var key in measures) {
