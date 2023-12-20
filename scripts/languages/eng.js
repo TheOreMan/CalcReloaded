@@ -1,5 +1,5 @@
 const eng = {
-  intro_title: "General data",
+  intro_title: "General data  ",
   periods: "Periods",
   period: "Period",
   add_period: "Add period",
