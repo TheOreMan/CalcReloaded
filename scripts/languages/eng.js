@@ -186,8 +186,119 @@ const eng = {
   cluster_4: "Cluster 4",
   cluster_5: "Cluster 5",
   */
-  sub_sleep_000: "Day or night sleep",
-
+  sub_free_000:"Sewing, repairing, and maintaining textiles",
+  sub_free_001:"Building and repairing furniture",
+  sub_free_002:"Lawn, Garden, and Houseplants",
+  sub_free_003:"Vehicle repair and maintenance (by self)",
+  sub_free_004:"Caring for and helping household children, n.e.c.",
+  sub_free_005:"Education, n.e.c.",
+  sub_free_006:"Consumer purchases, n.e.c.",
+  sub_free_007:"Using medical services, n.e.c.",
+  sub_free_008:"Using home maintenance, repair, decoration, construction svcs, n.e.c.",
+  sub_free_009:"Civic obligations and participation",
+  sub_free_010:"Socializing and communicating with others",
+  sub_free_011:"Relaxing, thinking",
+  sub_free_012:"Tobacco and drug use",
+  sub_free_013:"Television and movies (not religious)",
+  sub_free_014:"Listening to the radio",
+  sub_free_015:"Listening to/playing music (not radio)",
+  sub_free_016:"Playing games",
+  sub_free_017:"Computer use for leisure (except games)",
+  sub_free_018:"Arts and crafts as a hobby",
+  sub_free_019:"Collecting as a hobby",
+  sub_free_020:"Hobbies, except arts and crafts and collecting",
+  sub_free_021:"Reading for personal interest",
+  sub_free_022:"Writing for personal interest",
+  sub_free_023:"Relaxing and leisure, n.e.c.",
+  sub_free_024:"Attending performing arts",
+  sub_free_025:"Attending museums",
+  sub_free_026:"Attending movies/film",
+  sub_free_027:"Attending gambling establishments",
+  sub_free_028:"Socializing, relaxing, and leisure, n.e.c.",
+  sub_free_029:"Dancing",
+  sub_free_030:"Fishing",
+  sub_free_031:"Hiking",
+  sub_free_032:"Hunting",
+  sub_free_033:"Rollerblading",
+  sub_free_034:"Attending sporting events, n.e.c.",
+  sub_free_035:"Attending religious services",
+  sub_free_036:"Religious and spiritual activities, n.e.c.",
+  sub_free_037:"Volunteer activities, n.e.c.",
+  sub_free_038:"Walking, household walking",
+  sub_free_039:"Walking, 3.2km/h, level, slow pace, firm surface",
+  sub_sleep_000: "Sleeping",
+  sub_work_000:"Management",
+  sub_work_001:"Business and Financial",
+  sub_work_002:"Computer and Mathematical",
+  sub_work_003:"Architecture and Engineering",
+  sub_work_004:"Life, Physical, and Social Science",
+  sub_work_005:"Community and Social Services",
+  sub_work_006:"Legal",
+  sub_work_007:"Education, Training, and Library",
+  sub_work_008:"Arts, Design, Entertainment, Sports, Media",
+  sub_work_009:"Healthcare Practitioner and Technical",
+  sub_work_010:"Healthcare Support",
+  sub_work_011:"Protective Service",
+  sub_work_012:"Food Preparation and Serving Related",
+  sub_work_013:"Bldg & Grounds Cleaning, Maintenance",
+  sub_work_014:"Personal Care and Service",
+  sub_work_015:"Sales and Related Occupations",
+  sub_work_016:"Office and Administrative Support",
+  sub_work_017:"Farming, Fishing, and Forestry",
+  sub_work_018:"Construction and Extraction",
+  sub_work_019:"Installation, Maintenance, and Repair",
+  sub_work_020:"Production",
+  sub_work_021:"Transportation and Material Moving",
+  sub_self_000:"Washing, dressing and grooming oneself",
+  sub_self_001:"Eating and drinking",
+  sub_walk_000:"Walking on job, 4.8 km/h, in office, moderate speed, not carrying anything",
+  sub_walk_001:"Walking from house, to car or bus, from car or bus to go places, from car or bus to and from the worksite",
+  sub_walk_002:"Automobile or light truck (not a semi) driving",
+  sub_walk_003:"Riding in a car or truck",
+  sub_walk_004:"Bicycling, <16 km/h, leisure, to work or for pleasure",
+  sub_home_000:"Interior Cleaning",
+  sub_home_001:"Housework, n.e.c.",
+  sub_home_002:"Food and drink preparation",
+  sub_home_003:"Kitchen and Food Clean-Up",
+  sub_home_004:"Interior maintenance, repair and decoration, n.e.c.",
+  sub_home_005:"Exterior maintenance, repair and decoration, n.e.c.",
+  sub_home_006:"Pet and animal care, n.e.c.",
+  sub_home_007:"Physical care for HH children",
+  sub_home_008:"Physical care for HH adults",
+  sub_home_009:"Caring for and helping nonHH members, n.e.c.",
+  sub_home_010:"Using veterinary services",
+  sub_sport_000:"Doing Aerobics",
+  sub_sport_001:"Playing baseball",
+  sub_sport_002:"Playing basketball",
+  sub_sport_003:"Biking",
+  sub_sport_004:"Playing billiards",
+  sub_sport_005:"Boating",
+  sub_sport_006:"Bowling",
+  sub_sport_007:"Climbing, spelunking, caving",
+  sub_sport_008:"Participating in equestrian sports",
+  sub_sport_009:"Fencing",
+  sub_sport_010:"Playing football",
+  sub_sport_011:"Golfing",
+  sub_sport_012:"Doing Gymnastics",
+  sub_sport_013:"Playing hockey",
+  sub_sport_014:"Participating in martial arts",
+  sub_sport_015:"Playing racquet sports",
+  sub_sport_016:"Participating in rodeo competitions",
+  sub_sport_017:"Playing rugby",
+  sub_sport_018:"Running",
+  sub_sport_019:"Skiing, ice skating, snowboarding",
+  sub_sport_020:"Playing soccer",
+  sub_sport_021:"Softball",
+  sub_sport_022:"Vehicle touring/racing",
+  sub_sport_023:"Playing volleyball",
+  sub_sport_024:"Walking",
+  sub_sport_025:"Participating in water sports",
+  sub_sport_026:"Weightlifting/strength training",
+  sub_sport_027:"Working out, unspecified",
+  sub_sport_028:"Wrestling",
+  sub_sport_029:"Doing yoga",
+  sub_sport_030:"Playing sports, n.e.c.",
+  sub_sport_031:"Sports, exercise and recreation, n.e.c.",
   sub_all_0: "1: Low activity",
   sub_all_1: "2: Medium low activity",
   sub_all_2: "3: Medium activity",
@@ -231,5 +342,41 @@ const eng = {
   deleteSubcategory: "Delete subcategory",
   default: "(default)",
   duplicateSubcategory: "Duplicate subcategory to the next day type",
+  about:"About the program",
   selfEval: "Self-evaluation of physical activity"
 };
+
+const aboutText_eng=`
+<h1>Program "Lifetime Activities Calculator"</h1>
+<h2>Version v3.0</h2>
+<ol>
+  <li>Added a button "About the program" where you can see all historical version changes.</li>
+  <li>New subcategories introduced for all categories.</li>
+  <li>Added Ukrainian language support.</li>
+  <li>Fixed a bug in the import from MS Excel: units of supercategories were not changed to "Hours per day".</li>
+  <li>Fixed a bug in deleting subcategories: when deleting the last subcategory, input fields of the parent category were not re-enabled.</li>
+</ol>
+<h2>Version v2.0</h2>
+<ol>
+  <li>Improved the appearance of buttons and input fields.</li>
+  <li>Mifflin St Jeor equation set as default, and the word "default" added in parentheses.</li>
+  <li>Added the option to duplicate subcategories for the next day type by clicking the icon with a green arrow. In this case, the subcategory in the next day type is highlighted in red to easily notice that it has been automatically added and may require attention for correction.</li>
+  <li>Added a check to ensure that multiple subcategories with the same name are not added to one category (manually or by duplicating [see point 3]).</li>
+  <li>Added a new input field "Self-evaluation of physical activity" for each period, which is also exported to Excel and imported back into the tool.</li>
+</ol>
+<h2>Version v1.0</h2>
+<ol>
+  <li>New design with everything in one place.</li>
+  <li>Multi-language support.</li>
+  <li>Reorganized the structure of categories and subcategories - now each day type can have its own set of categories, and each category can have its own set of subcategories.</li>
+  <li>Ability to delete periods and restore deleted periods.</li>
+  <li>Ability to add and delete day types (workdays and vacations).</li>
+  <li>Ability to delete subcategories.</li>
+  <li>Revamped the data analysis section for easier (automatic) recalculations, performing various actions - opening this section, pressing the "Recalculate" button, changing the equation or value type, etc.</li>
+  <li>In the data analysis section, added the ability to create arbitrary intervals, which are saved even when recalculating data. Also added the option to delete created intervals.</li>
+  <li>Data analysis intervals created in Excel export are exported along with all period data.</li>
+  <li>Excel import works only for files exported with this new version CalcReloaded v1.0. Maybe later we will make (if needed) import for old files as well.</li>
+  <li>Important note - when importing an Excel file (button "Load from MS Excel"), the calculator must be set to the same language as the language used for exporting the imported file (after import, of course, the language can be freely changed again).</li>
+</ol>
+<br>
+`;

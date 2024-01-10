@@ -186,6 +186,119 @@ const fra = {
   cluster_4: "4e groupe",
   cluster_5: "5e groupe",
   */
+  sub_free_000: "Coudre, réparer et entretenir les textiles",
+  sub_free_001: "Construction et réparation de meubles",
+  sub_free_002: "Pelouse, jardin et plantes d'intérieur",
+  sub_free_003: "Réparation et entretien de véhicules (par soi-même)",
+  sub_free_004: "Soins et aide aux enfants du ménage, n.c.a.",
+  sub_free_005: "Éducation, n.c.a.",
+  sub_free_006: "Achats de consommation, n.c.a.",
+  sub_free_007: "Utilisation de services médicaux, n.c.a.",
+  sub_free_008: "Utilisation de services de maintenance, réparation, décoration, construction à domicile, n.c.a.",
+  sub_free_009: "Obligations civiques et participation",
+  sub_free_010: "Socialisation et communication avec les autres",
+  sub_free_011: "Détente, réflexion",
+  sub_free_012: "Usage du tabac et de drogues",
+  sub_free_013: "Télévision et films (non religieux)",
+  sub_free_014: "Écoute de la radio",
+  sub_free_015: "Écoute/jouer de la musique (hors radio)",
+  sub_free_016: "Jouer",
+  sub_free_017: "Utilisation de l'ordinateur pour les loisirs (sauf jeux)",
+  sub_free_018: "Arts et artisanat comme passe-temps",
+  sub_free_019: "Collection comme passe-temps",
+  sub_free_020: "Loisirs, sauf arts et artisanat et collection",
+  sub_free_021: "Lire par intérêt personnel",
+  sub_free_022: "Écrire par intérêt personnel",
+  sub_free_023: "Détente et loisirs, n.c.a.",
+  sub_free_024: "Assister aux arts de la scène",
+  sub_free_025: "Assister aux musées",
+  sub_free_026: "Assister aux films/cinéma",
+  sub_free_027: "Assister aux établissements de jeux de hasard",
+  sub_free_028: "Socialiser, se détendre et loisirs, n.c.a.",
+  sub_free_029: "Danser",
+  sub_free_030: "Pêche",
+  sub_free_031: "Randonnée",
+  sub_free_032: "Chasse",
+  sub_free_033: "Rollerblade",
+  sub_free_034: "Assister à des événements sportifs, n.c.a.",
+  sub_free_035: "Assister à des services religieux",
+  sub_free_036: "Activités religieuses et spirituelles, n.c.a.",
+  sub_free_037: "Activités bénévoles, n.c.a.",
+  sub_free_038: "Marche, marche à domicile",
+  sub_free_039: "Marche, 3.2 km/h, niveau, pas lent, surface ferme",
+  sub_sleep_000: "Dormir",
+  sub_work_000: "Gestion",
+  sub_work_001: "Affaires et finances",
+  sub_work_002: "Informatique et mathématiques",
+  sub_work_003: "Architecture et ingénierie",
+  sub_work_004: "Sciences de la vie, physiques et sociales",
+  sub_work_005: "Services communautaires et sociaux",
+  sub_work_006: "Légal",
+  sub_work_007: "Éducation, formation et bibliothèque",
+  sub_work_008: "Arts, design, divertissement, sports, médias",
+  sub_work_009: "Professionnel de la santé et technique",
+  sub_work_010: "Soutien médical",
+  sub_work_011: "Service de protection",
+  sub_work_012: "Préparation et service alimentaire",
+  sub_work_013: "Nettoyage et entretien des bâtiments et terrains",
+  sub_work_014: "Soins personnels et services",
+  sub_work_015: "Ventes et professions apparentées",
+  sub_work_016: "Bureau et soutien administratif",
+  sub_work_017: "Agriculture, pêche et foresterie",
+  sub_work_018: "Construction et extraction",
+  sub_work_019: "Installation, maintenance et réparation",
+  sub_work_020: "Production",
+  sub_work_021: "Transport et mouvement de matériaux",
+  sub_self_000: "Se laver, s'habiller et se coiffer",
+  sub_self_001: "Manger et boire",
+  sub_walk_000: "Marcher au travail, 4.8 km/h, au bureau, vitesse modérée, sans rien porter",
+  sub_walk_001: "Marcher de la maison à la voiture ou au bus, du bus ou de la voiture pour se rendre à des endroits, de la voiture ou du bus au lieu de travail et vice versa",
+  sub_walk_002: "Conduire une voiture ou un camion léger (pas un camion)",
+  sub_walk_003: "Voyager en voiture ou en camion",
+  sub_walk_004: "Faire du vélo, <16 km/h, loisirs, pour le travail ou pour le plaisir",
+  sub_home_000: "Nettoyage intérieur",
+  sub_home_001: "Travaux ménagers, n.c.a.",
+  sub_home_002: "Préparation de la nourriture et des boissons",
+  sub_home_003: "Nettoyage de la cuisine et des ustensiles",
+  sub_home_004: "Maintenance intérieure, réparation et décoration, n.c.a.",
+  sub_home_005: "Maintenance extérieure, réparation et décoration, n.c.a.",
+  sub_home_006: "Soin des animaux de compagnie, n.c.a.",
+  sub_home_007: "Soin physique des enfants du ménage",
+  sub_home_008: "Soin physique des adultes du ménage",
+  sub_home_009: "Soin et aide aux membres non du ménage, n.c.a.",
+  sub_home_010: "Utilisation des services vétérinaires",
+  sub_sport_000: "Faire de l'aérobic",
+  sub_sport_001: "Jouer au baseball",
+  sub_sport_002: "Jouer au basketball",
+  sub_sport_003: "Faire du vélo",
+  sub_sport_004: "Jouer au billard",
+  sub_sport_005: "Navigation",
+  sub_sport_006: "Bowling",
+  sub_sport_007: "Escalade, spéléologie, spéléologie",
+  sub_sport_008: "Participation à des sports équestres",
+  sub_sport_009: "Escrime",
+  sub_sport_010: "Jouer au football",
+  sub_sport_011: "Golf",
+  sub_sport_012: "Faire de la gymnastique",
+  sub_sport_013: "Jouer au hockey",
+  sub_sport_014: "Participer à des arts martiaux",
+  sub_sport_015: "Jouer à des sports de raquette",
+  sub_sport_016: "Participer à des compétitions de rodéo",
+  sub_sport_017: "Jouer au rugby",
+  sub_sport_018: "Courir",
+  sub_sport_019: "Ski, patinage sur glace, snowboard",
+  sub_sport_020: "Jouer au football",
+  sub_sport_021: "Softball",
+  sub_sport_022: "Tourisme/course de véhicules",
+  sub_sport_023: "Jouer au volleyball",
+  sub_sport_024: "Marcher",
+  sub_sport_025: "Participer à des sports nautiques",
+  sub_sport_026: "Haltérophilie/entraînement en force",
+  sub_sport_027: "S'entraîner, non spécifié",
+  sub_sport_028: "Lutte",
+  sub_sport_029: "Faire du yoga",
+  sub_sport_030: "Jouer à des sports, n.c.a.",
+  sub_sport_031: "Sports, exercice et loisirs, n.c.a.",
   comment: "Commentaire",
   from_these_filled: ", dont ils sont remplies",
   total_in_period: "Total sur la période",
@@ -224,5 +337,41 @@ const fra = {
   deleteSubcategory: "Supprimer la sous-catégorie",
   default: "(par défaut)",
   duplicateSubcategory: "Dupliquer la sous-catégorie vers le type de jour suivant",
+  about:"À propos du programme",
   selfEval: "Auto-évaluation de l'activité physique"
 };
+
+const aboutText_fra=`
+<h1>Programme "Calculateur d'Activités à Vie"</h1>
+<h2>Version v3.0</h2>
+<ol>
+  <li>Ajouté un bouton "À propos du programme" où vous pouvez voir tous les changements de version historiques.</li>
+  <li>Nouvelles sous-catégories introduites pour toutes les catégories.</li>
+  <li>Ajout du support de la langue ukrainienne.</li>
+  <li>Correction d'un bug lors de l'importation depuis MS Excel : les unités des supercatégories n'étaient pas modifiées en "Heures par jour".</li>
+  <li>Correction d'un bug lors de la suppression des sous-catégories : lors de la suppression de la dernière sous-catégorie, les champs de saisie de la catégorie parente n'étaient pas réactivés.</li>
+</ol>
+<h2>Version v2.0</h2>
+<ol>
+  <li>Amélioration de l'apparence des boutons et des champs de saisie.</li>
+  <li>Équation de Mifflin St Jeor définie par défaut, et le mot "par défaut" ajouté entre parenthèses.</li>
+  <li>Ajout de l'option de dupliquer des sous-catégories pour le type de jour suivant en cliquant sur l'icône avec une flèche verte. Dans ce cas, la sous-catégorie dans le type de jour suivant est surlignée en rouge pour remarquer facilement qu'elle a été ajoutée automatiquement et peut nécessiter une attention pour la correction.</li>
+  <li>Ajout d'une vérification pour s'assurer que plusieurs sous-catégories avec le même nom ne sont pas ajoutées à une catégorie (manuellement ou en dupliquant [voir point 3]).</li>
+  <li>Ajout d'un nouveau champ de saisie "Auto-évaluation de l'activité physique" pour chaque période, qui est également exporté vers Excel et importé de nouveau dans l'outil.</li>
+</ol>
+<h2>Version v1.0</h2>
+<ol>
+  <li>Nouveau design avec tout en un seul endroit.</li>
+  <li>Support multi-langue.</li>
+  <li>Réorganisation de la structure des catégories et sous-catégories - maintenant chaque type de jour peut avoir son propre ensemble de catégories, et chaque catégorie peut avoir son propre ensemble de sous-catégories.</li>
+  <li>Possibilité de supprimer des périodes et de restaurer des périodes supprimées.</li>
+  <li>Possibilité d'ajouter et de supprimer des types de jour (jours de travail et vacances).</li>
+  <li>Possibilité de supprimer des sous-catégories.</li>
+  <li>Rénovation de la section d'analyse des données pour des recalculs plus faciles (automatiques), effectuant diverses actions - ouverture de cette section, appui sur le bouton "Recalculer", changement de l'équation ou du type de valeur, etc.</li>
+  <li>Dans la section d'analyse des données, ajout de la possibilité de créer des intervalles arbitraires, qui sont sauvegardés même lors du recalcul des données. Ajout également de l'option de supprimer les intervalles créés.</li>
+  <li>Les intervalles d'analyse des données créés dans l'exportation vers Excel sont exportés avec toutes les données de période.</li>
+  <li>L'importation Excel fonctionne uniquement pour les fichiers exportés avec cette nouvelle version CalcReloaded v1.0. Peut-être plus tard, nous ferons (si nécessaire) une importation pour les anciens fichiers également.</li>
+  <li>Note importante - lors de l'importation d'un fichier Excel (bouton "Charger depuis MS Excel"), le calculateur doit être réglé sur la même langue que la langue utilisée pour l'exportation du fichier importé (après l'importation, bien sûr, la langue peut être librement changée à nouveau).</li>
+</ol>
+<br>
+`

@@ -15,6 +15,17 @@ h2.input,h4.input {
   right: 0;
 }
 
+#about {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#aboutDiv {
+  max-height: 70vh;
+  overflow: auto;
+}
+
 .label {
   display: inline-block;
   width: 200px;

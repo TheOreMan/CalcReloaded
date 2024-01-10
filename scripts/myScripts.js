@@ -4,6 +4,14 @@ function start() {
   redrawAll();
 }
 
+function about () {
+  aboutDiv=document.getElementById("aboutDiv");
+  aboutDiv.innerHTML=aboutText;
+  var modal=document.getElementById("modal_about");
+  modal.style.display="block";
+  aboutDiv.scrollTop=0;
+}
+
 function createCell(row,s) {
   var cell=document.createElement("td");
   row.appendChild(cell);
@@ -341,10 +349,11 @@ function renameActualPerson() {
   });
 }
 
-function switchLanguage(evt) { 
+function switchLanguage(evt) {
   var s=evt.target.src;
   var lang=s.substring(s.lastIndexOf("/")+1,s.lastIndexOf("."));
   language=languages[lang];
+  aboutText=aboutTexts[lang];
   renameDefaults();
   renameActualPerson();
   renameActivityHints(lang);
@@ -818,6 +827,11 @@ function deleteSubcategory(event) {
       renameId(subDiv.childNodes[x],count);
     count++;
   }
+  if (parent.childNodes.length==1) {
+   var id=lab.id.substring(0,lab.id.indexOf("_sub_0"));
+   document.getElementById(id+"_value").disabled=false;
+   document.getElementById(id+"_measure").disabled=false;
+  }
   subValueChanged(lab.id,field,dayType,res.periodNr);
 }
 
@@ -1150,6 +1164,10 @@ function subValueChanged(id,field,dayType,periodNr) {
   });
   var f=document.getElementById(id+"_value");
   f.value=sum.toFixed(2);
+  var selIdx=0;
+  if (field.id!="sleep" && field.id!="work") selIdx=1;
+  f=document.getElementById(id+"_measure");
+  f.selectedIndex=selIdx;
   valueChanged(id+"_value",dayType,periodNr);
 }
 

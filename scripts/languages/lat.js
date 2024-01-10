@@ -186,8 +186,119 @@ const lat = {
   cluster_4: "4. klāsteris",
   cluster_5: "5. klāsteris",
   */
-  sub_sleep_000: "Dienas vai nakts miegs",
-
+  sub_free_000:"Tekstilizstrādājumu šūšana, labošana un apkope",
+  sub_free_001:"Mēbeļu izgatavošana, atjaunošana un remonts",
+  sub_free_002:"Dārzkopība un telpaugu kopšana",
+  sub_free_003:"Pašrocīgi veikts automašīnu remonts un apkope",
+  sub_free_004:"Citur neminēts pavadītais laiks ar bērniem",
+  sub_free_005:"Citur neminētas izglītības aktivitātes",
+  sub_free_006:"Citur neminēta iepirkšanās",
+  sub_free_007:"Citur neminētu medicīnas pakalpojumu izmantošana",
+  sub_free_008:"Citur neminēta/neklasificēta dzīvesvietas labiekārtošana",
+  sub_free_009:"Pilsoniskā līdzdalība un pilsoniskā atbildība (vēlēšanas u.c. pasākumi)",
+  sub_free_010:"Socializēšanās un komunikācija ar citiem ",
+  sub_free_011:"Atpūta, relaksācija",
+  sub_free_012:"Tabakas un narkotisko vielu lietošana",
+  sub_free_013:"Televīzijas un kino skatīšanās",
+  sub_free_014:"Radio klausīšanās",
+  sub_free_015:"Mūzikas klausīšanās (izņemot radio)",
+  sub_free_016:"Galda spēļu spēlēšana",
+  sub_free_017:"Datora izmantošana atpūtai un izklaidei (izņemt datorspēļu spēlēšanu)",
+  sub_free_018:"Rokdarbi un māksla",
+  sub_free_019:"Kolekcionēšana",
+  sub_free_020:"Citi hobiji, izņemot mākslu, rokdarbus un kolekcionēšanu",
+  sub_free_021:"Lasīšana",
+  sub_free_022:"Rakstīšana",
+  sub_free_023:"Citur neminēti atpūtas veidi",
+  sub_free_024:"Skatuves mākslas pasākumu apmeklēšana",
+  sub_free_025:"Muzeju apmeklēšana",
+  sub_free_026:"Kino apmeklēšana",
+  sub_free_027:"Azartspēļu zāļu apmeklēšana",
+  sub_free_028:"Citur neminēta socializēšanās, atpūta un brīvā laika pavadīšana",
+  sub_free_029:"Dejošana",
+  sub_free_030:"Makšķerēšana",
+  sub_free_031:"Pārgājieni",
+  sub_free_032:"Medības",
+  sub_free_033:"Skrituļslidošana",
+  sub_free_034:"Citur neminētu sporta pasākumu apmeklēšana",
+  sub_free_035:"Dievkalpojumu, reliģisku pasākumu apmeklēšana",
+  sub_free_036:"Citur neminētas reliģiskās un garīgās aktivitātes",
+  sub_free_037:"Citur neminētas brīvprātīgā darba aktivitātes",
+  sub_free_038:"Staigāšana/iešana, pārvietošanās pa dzīvesvietu",
+  sub_free_039:"Lēna iešana, 3.2km/h, līdzens, lēns temps, stingra virsma",
+  sub_sleep_000: "Miegs",
+  sub_work_000:"Vadība un pārvaldība",
+  sub_work_001:"Uzņēmējdarbība un finanses",
+  sub_work_002:"Datorzinības un matemātika",
+  sub_work_003:"Arhitektūra un inženierzinātnes",
+  sub_work_004:"Zinātne",
+  sub_work_005:"Sociālie pakalpojumi un sociālā palīdzība",
+  sub_work_006:"Tieslietas un jurisprudence",
+  sub_work_007:"Izglītība, zinātne un pētniecība",
+  sub_work_008:"Māksla, dizains, izklaide, sports un plašsaziņas līdzekļi",
+  sub_work_009:"Ārstniecības persona",
+  sub_work_010:"Ārstniecības atbalsta personāls",
+  sub_work_011:"Sabiedrības aizsardzība un drošība",
+  sub_work_012:"Viesmīlības un ēdināšanas pakalpojumi",
+  sub_work_013:"Teritoriju uzkopšana, ēku un būvju uzturēšana",
+  sub_work_014:"Skaistumkopšana",
+  sub_work_015:"Tirdzniecība un ar to saistītās profesijas",
+  sub_work_016:"Biroja darbs u.c. administratīvais darbs",
+  sub_work_017:"Lauksaimniecība, mežsaimniecība un zivsaimniecība",
+  sub_work_018:"Būvniecība ",
+  sub_work_019:"Tehniķi un mehāniķi, iekārtu uzstādīšana, apkope un remonts",
+  sub_work_020:"Ražošana",
+  sub_work_021:"Transports un pārvadājumi",
+  sub_self_000:"Personīgā higiēna (mazgāšanās, ģērbšanās, sevis apkopšana)",
+  sub_self_001:"Ēšana un dzeršana",
+  sub_walk_000:"Pārvietošanās/staigāšana darba laikā mērenā tempā",
+  sub_walk_001:"Iešana no mājam uz automašīnu vai autobusu; iešana no automašīnas vai autobusa līdz galamērķim, iešana no automašīnas vai autobusa uz un no darba vietas",
+  sub_walk_002:"Vieglā auto transporta vadīšana (B kategorijas tiesības)",
+  sub_walk_003:"Pārvietošanās ka pasažierim vieglajā vai smagajā auto transportā (ne sabiedriskajā transportā)",
+  sub_walk_004:"Pārvientošanās ar velosipēdu (nepiedaloties sacensībās)",
+  sub_home_000:"Iekštelpu uzkopšana",
+  sub_home_001:"Citur neminēti mājsaimniecības darbi",
+  sub_home_002:"Maltītes pagatavošana (tai skaitā dzērienu)",
+  sub_home_003:"Virtuves uzkopšana",
+  sub_home_004:"Citur neminēta dzīvesvietas iekštelpu atjaunošana, remonts, apdare",
+  sub_home_005:"Citur neminēta dzīvesvietas ārtelpu atjaunošana (fasāde, jumts u.c.) remonts, apdare",
+  sub_home_006:"Mājdzīvnieku aprūpe",
+  sub_home_007:"Mājsaimniecībā esošu bērnu aprūpe",
+  sub_home_008:"Mājsaimniecībā esošu pieaugušo aprūpe",
+  sub_home_009:"Ārpus mājsaimniecības esošu cilvēku aprūpe",
+  sub_home_010:"Veterināro pakalpojumu izmantošana",
+  sub_sport_000:"Aerobikas vingrinājumi",
+  sub_sport_001:"Beisbols",
+  sub_sport_002:"Basketbols",
+  sub_sport_003:"Riteņbraukšana",
+  sub_sport_004:"Biljards",
+  sub_sport_005:"Laivošana",
+  sub_sport_006:"Boulings",
+  sub_sport_007:"Klinšu kāpšana, alu tūrisms",
+  sub_sport_008:"Jāšanas sports",
+  sub_sport_009:"Paukošanās",
+  sub_sport_010:"Amerikāņu futbols",
+  sub_sport_011:"Golfs",
+  sub_sport_012:"Vingrošana",
+  sub_sport_013:"Hokejs",
+  sub_sport_014:"Cīņas māksla",
+  sub_sport_015:"Rakešu sporta aktivitātes (teniss, badmintons, u.c.)",
+  sub_sport_016:"Rodeo",
+  sub_sport_017:"Regbijs",
+  sub_sport_018:"Skriešana",
+  sub_sport_019:"Slēpošana, slidošana, snovbords",
+  sub_sport_020:"Futbols",
+  sub_sport_021:"Softbols",
+  sub_sport_022:"Auto tūrisms, ātrumsacīkstes",
+  sub_sport_023:"Volejbols",
+  sub_sport_024:"Soļošana",
+  sub_sport_025:"Ūdens sports",
+  sub_sport_026:"Svarcelšana/spēka treniņš",
+  sub_sport_027:"Treniņš (treniņnodarbība), neprecizēta",
+  sub_sport_028:"Cīkstēšanās",
+  sub_sport_029:"Joga",
+  sub_sport_030:"Citur neminēts komandu sports",
+  sub_sport_031:"Citur neminēts individuālais sports",
   sub_all_0: "1: Zema aktivitāte",
   sub_all_1: "2: Vidēji zema aktivitāte",
   sub_all_2: "3: Vidēja aktivitāte",
@@ -231,5 +342,41 @@ const lat = {
   deleteSubcategory: "Dzēst apakškategoriju",
   default: "(noklusētais)",
   duplicateSubcategory:"Dublēt apakškategoriju uz nākamo dienas tipu",
+  about:"Par programmu",
   selfEval:"Sava fiziskā aktivitāte"
 };
+
+const aboutText_lat=`
+<h1>Programma "Dzīves laika aktivitāšu kalkulators"</h1>
+<h2>Versija v3.0</h2>
+<ol>
+<li>Pielikta poga "Par programmu", kurā var redzēt visu vēsturisko versiju izmaiņas.</li>
+<li>Visām kategorijām ieviestas jaunās apakškategorijas.</li>
+<li>Pievienots Ukraiņu valodas atbalsts.</li>
+<li>Izlabota kļūda importā no MS Excel: virskategoriju mērvienības netika nomainītas uz "Stundas dienā".</li>
+<li>Izlabota kļūda apakškategoriju dzēšanā: izdzēšot pēdējo apakškategorija, virskategorijas ievadlauki netika atiespējoti.</li>
+</ol>
+<h2>Versija v2.0</h2>
+<ol>
+<li>Uzlabots pogu un ievadlauku izskats.</li>
+<li>Mifflin St Jeor vienādojums padarīts par noklusēto, kā arī tam iekavās pierakstīts vārds "noklusētais".</li>
+<li>Pielikta iespēja dublēt apakškategorijas uz nākamo dienas tipu, spiežot ikonu ar zaļas bultas attēlu. Tādā gadījumā nākamajā dienas tipā šī apakškategorija tiek iezīmēta sarkana, lai vieglāk būtu pamanīt, ka tā ir automātiski pievienota un ka tai, iespējams, vajag pievērst uzmanību, to piekoriģējot.</li>
+<li>Pielikta kontrole, vai vienai kategorijai netiek pievienotas (manuāli vai dublējot [skatīt 3. punktu]) vairākas apakškategorijas ar vienādiem nosaukumiem.</li>
+<li>Katram periodam pievienots jauns ievadlauks "Sava fiziskā aktivitāte", kas arī tiek eksportēts uz Excel un importēts no tā atpakaļ rīkā.</li>
+</ol>
+<h2>Versija v1.0</h2>
+<ol>
+<li>Jauns dizains ar visu vienā šķirklī.</li>
+<li>Vairākvalodu atbalsts.</li>
+<li>Pārorganizēta kategoriju un apakškategoriju struktūra - tagad katram dienas tipam var būt savs kategoriju komplekts un katrai kategorijai var būt savs apakškategoriju komplekts.</li>
+<li>Iespēja dzēst periodus un atjaunot izdzēstus periodus.</li>
+<li>Iespēja pievienot un dzēst dienas tipus (darba dienas un atvaļinājumus).</li>
+<li>Iespēja dzēst apakškategorijas.</li>
+<li>Pārtaisīta datu analīzes daļa, lai dati vieglāk (automātiski) pārrēķinātos, veicot dažādas darbības - atverot šo sadaļu, spiežot pogu "Pārrēķināt", mainot vienādojuma vai vērtību tipu izvēli u.tml.</li>
+<li>Datu analīzes sadaļā pielikta iespēja veidot patvaļīgus intervālus, kas saglabājas arī, pārrēķinot datus. Pielikta arī iespēja dzēst izveidotos intervālus.</li>
+<li>Excel exportā izveidoti datu analīzes intervāli tiek eksportēti kopā ar visu periodu datiem.</li>
+<li>Excel imports strādā tikai tām datnēm, kas eksportējas ar šo jauno versiju CalcReloaded v1.0. Varbūt vēlāk izveidosim (ja vajadzēs) arī veco datņu importu.</li>
+<li>Būtiska piezīme - importējot Excel datni (poga "Ielādēt no MS Excel"), kalkulatorā jābūt izvēlētai tai pašai valodai, ar kuru iepriekš veikts importējamās datnes eksports (pēc importa, protams, valodu var atkal brīvi mainīt).</li>
+</ol>
+<br>
+`;

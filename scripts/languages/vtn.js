@@ -186,6 +186,119 @@ const vtn = {
   cluster_4: "4. nhóm",
   cluster_5: "5. nhóm",
   */
+  sub_free_000: "May, sửa chữa và bảo dưỡng vải",
+  sub_free_001: "Xây dựng và sửa chữa đồ gỗ",
+  sub_free_002: "Làm vườn, làm cảnh và chăm sóc cây cảnh trong nhà",
+  sub_free_003: "Sửa chữa và bảo dưỡng phương tiện (tự thực hiện)",
+  sub_free_004: "Chăm sóc và giúp đỡ trẻ em trong gia đình, khác",
+  sub_free_005: "Giáo dục, khác",
+  sub_free_006: "Mua sắm tiêu dùng, khác",
+  sub_free_007: "Sử dụng dịch vụ y tế, khác",
+  sub_free_008: "Sử dụng dịch vụ bảo trì, sửa chữa, trang trí, xây dựng tại nhà, khác",
+  sub_free_009: "Nghĩa vụ và tham gia công dân",
+  sub_free_010: "Giao tiếp và giao tiếp với người khác",
+  sub_free_011: "Thư giãn, suy nghĩ",
+  sub_free_012: "Sử dụng thuốc lá và chất kích thích",
+  sub_free_013: "Xem TV và phim (không phải tôn giáo)",
+  sub_free_014: "Nghe radio",
+  sub_free_015: "Nghe/phát nhạc (không phải radio)",
+  sub_free_016: "Chơi trò chơi",
+  sub_free_017: "Sử dụng máy tính giải trí (ngoại trừ trò chơi)",
+  sub_free_018: "Nghệ thuật và nghệ thuật thủ công làm sở thích",
+  sub_free_019: "Sưu tập như một sở thích",
+  sub_free_020: "Sở thích, trừ nghệ thuật và thủ công và sưu tập",
+  sub_free_021: "Đọc vì quan tâm cá nhân",
+  sub_free_022: "Viết vì quan tâm cá nhân",
+  sub_free_023: "Thư giãn và giải trí, khác",
+  sub_free_024: "Tham gia nghệ thuật biểu diễn",
+  sub_free_025: "Tham gia viện bảo tàng",
+  sub_free_026: "Tham gia xem phim",
+  sub_free_027: "Tham gia các cơ sở đánh bạc",
+  sub_free_028: "Giao tiếp, thư giãn và giải trí, khác",
+  sub_free_029: "Nhảy múa",
+  sub_free_030: "Đánh cá",
+  sub_free_031: "Đi bộ đường dài",
+  sub_free_032: "Săn bắn",
+  sub_free_033: "Trượt patin",
+  sub_free_034: "Tham gia sự kiện thể thao, khác",
+  sub_free_035: "Tham gia các dịch vụ tôn giáo",
+  sub_free_036: "Hoạt động tôn giáo và tâm linh, khác",
+  sub_free_037: "Hoạt động tình nguyện, khác",
+  sub_free_038: "Đi bộ, đi bộ trong nhà",
+  sub_free_039: "Đi bộ, 3.2 km/h, phẳng, bước chậm, bề mặt cứng",
+  sub_sleep_000: "Ngủ",
+  sub_work_000: "Quản lý",
+  sub_work_001: "Kinh doanh và Tài chính",
+  sub_work_002: "Máy tính và Toán học",
+  sub_work_003: "Kiến trúc và Kỹ thuật",
+  sub_work_004: "Khoa học về Cuộc sống, Vật lý và Xã hội",
+  sub_work_005: "Dịch vụ Cộng đồng và Xã hội",
+  sub_work_006: "Pháp lý",
+  sub_work_007: "Giáo dục, Đào tạo và Thư viện",
+  sub_work_008: "Nghệ thuật, Thiết kế, Giải trí, Thể thao, Truyền thông",
+  sub_work_009: "Người hành nghề Y tế và Kỹ thuật",
+  sub_work_010: "Hỗ trợ Y tế",
+  sub_work_011: "Dịch vụ Bảo vệ",
+  sub_work_012: "Chế biến và Phục vụ thực phẩm",
+  sub_work_013: "Vệ sinh và Bảo dưỡng Khu vực & Đất đai",
+  sub_work_014: "Chăm sóc cá nhân và Dịch vụ",
+  sub_work_015: "Bán hàng và Các nghề liên quan",
+  sub_work_016: "Văn phòng và Hỗ trợ Hành chính",
+  sub_work_017: "Nông nghiệp, Đánh cá và Lâm nghiệp",
+  sub_work_018: "Xây dựng và Khai thác",
+  sub_work_019: "Lắp đặt, Bảo dưỡng và Sửa chữa",
+  sub_work_020: "Sản xuất",
+  sub_work_021: "Vận chuyển và Di chuyển Vật liệu",
+  sub_self_000: "Tự rửa, tự mặc và tự chải tóc",
+  sub_self_001: "Ăn uống và uống",
+  sub_walk_000: "Đi bộ làm việc, 4.8 km/h, trong văn phòng, tốc độ trung bình, không mang gì cả",
+  sub_walk_001: "Đi bộ từ nhà đến xe hoặc xe bus, từ xe hoặc xe bus để đi đến nơi, từ xe hoặc xe bus đến nơi làm việc và ngược lại",
+  sub_walk_002: "Lái xe ô tô hoặc xe tải nhẹ (không phải xe tải)",
+  sub_walk_003: "Điều khiển trong ô tô hoặc xe tải",
+  sub_walk_004: "Đi xe đạp, <16 km/h, giải trí, đi làm hoặc để thưởng thức",
+  sub_home_000: "Lau chùi bên trong",
+  sub_home_001: "Việc nhà, khác",
+  sub_home_002: "Chuẩn bị thức ăn và đồ uống",
+  sub_home_003: "Lau chùi bếp và dọn dẹp đồ ăn",
+  sub_home_004: "Bảo dưỡng bên trong, sửa chữa và trang trí, khác",
+  sub_home_005: "Bảo dưỡng bên ngoài, sửa chữa và trang trí, khác",
+  sub_home_006: "Chăm sóc thú cưng và động vật, khác",
+  sub_home_007: "Chăm sóc vật lý cho trẻ em trong gia đình",
+  sub_home_008: "Chăm sóc vật lý cho người lớn trong gia đình",
+  sub_home_009: "Chăm sóc và giúp đỡ những người không phải thành viên trong gia đình, khác",
+  sub_home_010: "Sử dụng dịch vụ thú y",
+  sub_sport_000: "Tập thể dục",
+  sub_sport_001: "Chơi bóng chày",
+  sub_sport_002: "Chơi bóng rổ",
+  sub_sport_003: "Đi xe đạp",
+  sub_sport_004: "Chơi bi-a",
+  sub_sport_005: "Đi thuyền",
+  sub_sport_006: "Bowling",
+  sub_sport_007: "Leo núi, thám hiểm hang động",
+  sub_sport_008: "Tham gia các môn thể thao ngựa",
+  sub_sport_009: "Fencing",
+  sub_sport_010: "Chơi bóng đá",
+  sub_sport_011: "Chơi golf",
+  sub_sport_012: "Tập thể dục",
+  sub_sport_013: "Chơi khúc côn cầu",
+  sub_sport_014: "Tham gia võ thuật",
+  sub_sport_015: "Chơi các môn thể thao bóng vợt",
+  sub_sport_016: "Tham gia cuộc thi rodeo",
+  sub_sport_017: "Chơi rugby",
+  sub_sport_018: "Chạy",
+  sub_sport_019: "Trượt tuyết, trượt băng, đua xe trượt tuyết",
+  sub_sport_020: "Chơi bóng đá",
+  sub_sport_021: "Softball",
+  sub_sport_022: "Du lịch đua/đua xe",
+  sub_sport_023: "Chơi bóng chuyền",
+  sub_sport_024: "Đi bộ",
+  sub_sport_025: "Tham gia các môn thể thao dưới nước",
+  sub_sport_026: "Nâng tạ/tập luyện sức mạnh",
+  sub_sport_027: "Tập luyện, không xác định",
+  sub_sport_028: "Đấu vật",
+  sub_sport_029: "Tập yoga",
+  sub_sport_030: "Chơi thể thao, khác",
+  sub_sport_031: "Thể thao, tập luyện và giải trí, khác",
   comment: "Bình luận",
   from_these_filled: ", trong số đó đã được điền",
   total_in_period: "Tổng trong khoảng thời gian",
@@ -224,5 +337,41 @@ const vtn = {
   deleteSubcategory: "Xóa phụ loại",
   default: "(mặc định)",
   duplicateSubcategory: "Nhân đôi tiểu mục sang loại ngày tiếp theo",
+  about:"Về chương trình",
   selfEval: "Tự đánh giá hoạt động thể chất"
 };
+
+const aboutText_vtn=`
+<h1>Chương trình "Bộ máy tính Hoạt động suốt đời"</h1>
+<h2>Phiên bản v3.0</h2>
+<ol>
+  <li>Thêm một nút "Về chương trình" nơi bạn có thể xem tất cả các thay đổi phiên bản lịch sử.</li>
+  <li>Thể loại con mới được giới thiệu cho tất cả các danh mục.</li>
+  <li>Thêm hỗ trợ ngôn ngữ Ukraina.</li>
+  <li>Sửa lỗi trong quá trình nhập từ MS Excel: đơn vị của siêu danh mục không được thay đổi thành "Giờ mỗi ngày".</li>
+  <li>Sửa lỗi khi xóa các danh mục con: khi xóa danh mục con cuối cùng, các trường nhập liệu của danh mục cha không được kích hoạt lại.</li>
+</ol>
+<h2>Phiên bản v2.0</h2>
+<ol>
+  <li>Cải thiện giao diện của nút và các ô nhập liệu.</li>
+  <li>Phương trình Mifflin St Jeor được đặt làm mặc định, và từ "mặc định" được thêm vào trong dấu ngoặc đơn.</li>
+  <li>Thêm tùy chọn sao chép các mục con cho loại ngày tiếp theo bằng cách nhấp vào biểu tượng có mũi tên màu xanh. Trong trường hợp này, mục con trong loại ngày tiếp theo được làm nổi bật màu đỏ để dễ dàng nhận biết rằng nó đã được thêm tự động và có thể cần chú ý để sửa lỗi.</li>
+  <li>Thêm kiểm tra để đảm bảo rằng nhiều mục con cùng tên không được thêm vào một loại (thủ công hoặc bằng cách sao chép [xem điểm 3]).</li>
+  <li>Thêm một ô nhập liệu mới "Tự đánh giá hoạt động thể chất" cho mỗi khoảng thời gian, cũng được xuất ra Excel và nhập lại vào công cụ.</li>
+</ol>
+<h2>Phiên bản v1.0</h2>
+<ol>
+  <li>Thiết kế mới với tất cả mọi thứ ở một nơi.</li>
+  <li>Hỗ trợ đa ngôn ngữ.</li>
+  <li>Tổ chức lại cấu trúc của các danh mục và mục con - hiện tại mỗi loại ngày có thể có bộ danh mục riêng, và mỗi danh mục có thể có bộ mục con riêng.</li>
+  <li>Có khả năng xóa các khoảng thời gian và khôi phục lại những khoảng thời gian đã xóa.</li>
+  <li>Có khả năng thêm và xóa các loại ngày (ngày làm việc và ngày nghỉ).</li>
+  <li>Có khả năng xóa các mục con.</li>
+  <li>Tái thiết kế phần phân tích dữ liệu để thuận tiện hơn trong việc tính toán lại (tự động), thực hiện nhiều hành động - mở phần này, nhấn nút "Tính toán lại", thay đổi phương trình hoặc loại giá trị, vv.</li>
+  <li>Trong phần phân tích dữ liệu, thêm khả năng tạo ra các khoảng thời gian tùy ý, được lưu lại ngay cả khi tính toán lại dữ liệu. Cũng thêm tùy chọn xóa các khoảng thời gian đã tạo.</li>
+  <li>Các khoảng thời gian phân tích dữ liệu tạo ra trong bảng xuất ra Excel sẽ được xuất cùng với tất cả dữ liệu khoảng thời gian.</li>
+  <li>Việc nhập Excel chỉ hoạt động cho các tệp xuất khẩu với phiên bản mới này CalcReloaded v1.0. Có thể sau này chúng tôi sẽ thực hiện (nếu cần thiết) nhập khẩu cho các tệp cũ cũng.</li>
+  <li>Lưu ý quan trọng - khi nhập một tệp Excel (nút "Tải từ MS Excel"), máy tính phải được đặt vào cùng ngôn ngữ như ngôn ngữ được sử dụng để xuất tệp đã nhập (sau khi nhập, tất nhiên, ngôn ngữ có thể thay đổi tự do).</li>
+</ol>
+<br>
+`

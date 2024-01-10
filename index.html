@@ -15,6 +15,7 @@
     <script src="scripts\languages\ita.js"></script>
     <script src="scripts\languages\esp.js"></script>
     <script src="scripts\languages\fra.js"></script>
+    <script src="scripts\languages\ukr.js"></script>
     <script src="scripts\languages\vtn.js"></script>
     <script src="scripts\defaults.js"></script>
     <script src="scripts\myexcel.js"></script>
@@ -28,7 +29,11 @@
       <img src="icons\ita.png" title="Italiano" class="flag-icon" onclick="switchLanguage(event)">
       <img src="icons\esp.png" title="Español" class="flag-icon" onclick="switchLanguage(event)">
       <img src="icons\fra.png" title="Français" class="flag-icon" onclick="switchLanguage(event)">
+      <img src="icons\ukr.png" title="Українська" class="flag-icon" onclick="switchLanguage(event)">
       <img src="icons\vtn.png" title="Tiếng Việt" class="flag-icon" onclick="switchLanguage(event)">
+    </div>
+    <div id="about">
+      <img src="icons\about.png" tag="about" class="flag-icon" onclick="about()">
     </div>
     <div>
       <div id="intro_header" class="tab-header">
@@ -159,5 +164,12 @@
       </div>
     </div>
 
+    <div id="modal_about" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal_about');">&times;</span>
+        <div id="aboutDiv" class="modalElement"></div>
+  	    <button tag="ok" class="modalElement greenBtn" onclick="closeModal('modal_about');">OK</button>
+      </div>
+    </div>
   </body>
 </html>

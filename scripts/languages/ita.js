@@ -186,6 +186,119 @@ const ita = {
   cluster_4: "Cluster 4",
   cluster_5: "Cluster 5",
   */
+  sub_free_000: "Cucire, riparare e mantenere tessuti",
+  sub_free_001: "Costruzione e riparazione di mobili",
+  sub_free_002: "Prato, giardino e piante da interno",
+  sub_free_003: "Riparazione e manutenzione di veicoli (fatto da sé)",
+  sub_free_004: "Cura e assistenza ai bambini in casa, n.d.",
+  sub_free_005: "Educazione, n.d.",
+  sub_free_006: "Acquisti, n.d.",
+  sub_free_007: "Utilizzo di servizi medici, n.d.",
+  sub_free_008: "Utilizzo di servizi di manutenzione, riparazione, decorazione, costruzione a casa, n.d.",
+  sub_free_009: "Obblighi civici e partecipazione",
+  sub_free_010: "Socializzare e comunicare con gli altri",
+  sub_free_011: "Rilassarsi, riflettere",
+  sub_free_012: "Uso di tabacco e droghe",
+  sub_free_013: "Televisione e film (non religiosi)",
+  sub_free_014: "Ascoltare la radio",
+  sub_free_015: "Ascoltare/suonare musica (non radio)",
+  sub_free_016: "Giocare",
+  sub_free_017: "Uso del computer per svago (tranne giochi)",
+  sub_free_018: "Arti e mestieri come hobby",
+  sub_free_019: "Collezionare come hobby",
+  sub_free_020: "Hobby, tranne arti e mestieri e collezionismo",
+  sub_free_021: "Lettura per interesse personale",
+  sub_free_022: "Scrittura per interesse personale",
+  sub_free_023: "Rilassamento e tempo libero, n.d.",
+  sub_free_024: "Frequentare spettacoli dal vivo",
+  sub_free_025: "Frequentare musei",
+  sub_free_026: "Frequentare cinema",
+  sub_free_027: "Frequentare locali per il gioco d'azzardo",
+  sub_free_028: "Socializzare, rilassarsi e tempo libero, n.d.",
+  sub_free_029: "Danzare",
+  sub_free_030: "Pesca",
+  sub_free_031: "Escursionismo",
+  sub_free_032: "Caccia",
+  sub_free_033: "Pattinaggio a rotelle",
+  sub_free_034: "Frequentare eventi sportivi, n.d.",
+  sub_free_035: "Frequentare servizi religiosi",
+  sub_free_036: "Attività religiose e spirituali, n.d.",
+  sub_free_037: "Attività di volontariato, n.d.",
+  sub_free_038: "Camminare, camminare in casa",
+  sub_free_039: "Camminare, 3.2 km/h, livello, passo lento, superficie ferma",
+  sub_sleep_000: "Dormire",
+  sub_work_000: "Gestione",
+  sub_work_001: "Affari e finanze",
+  sub_work_002: "Computer e matematica",
+  sub_work_003: "Architettura e ingegneria",
+  sub_work_004: "Scienze naturali, fisiche e sociali",
+  sub_work_005: "Servizi alla comunità e sociali",
+  sub_work_006: "Legale",
+  sub_work_007: "Educazione, formazione e biblioteca",
+  sub_work_008: "Arti, design, intrattenimento, sport, media",
+  sub_work_009: "Professioni sanitarie e tecniche",
+  sub_work_010: "Supporto sanitario",
+  sub_work_011: "Servizio di protezione",
+  sub_work_012: "Preparazione e servizio di cibo",
+  sub_work_013: "Pulizia e manutenzione di edifici e terreni",
+  sub_work_014: "Cura personale e servizio",
+  sub_work_015: "Vendite e occupazioni correlate",
+  sub_work_016: "Ufficio e supporto amministrativo",
+  sub_work_017: "Agricoltura, pesca e silvicoltura",
+  sub_work_018: "Costruzione ed estrazione",
+  sub_work_019: "Installazione, manutenzione e riparazione",
+  sub_work_020: "Produzione",
+  sub_work_021: "Trasporti e movimentazione materiali",
+  sub_self_000: "Lavarsi, vestirsi e curarsi",
+  sub_self_001: "Mangiare e bere",
+  sub_walk_000: "Camminare sul lavoro, 4.8 km/h, in ufficio, velocità moderata, senza portare nulla",
+  sub_walk_001: "Camminare da casa, verso l'auto o l'autobus, dall'auto o dall'autobus per andare in giro, dall'auto o dall'autobus al luogo di lavoro e viceversa",
+  sub_walk_002: "Guidare un'auto o un furgone leggero (non un camion)",
+  sub_walk_003: "Viaggiare in auto o camion",
+  sub_walk_004: "Ciclismo, <16 km/h, tempo libero, per lavoro o piacere",
+  sub_home_000: "Pulizia interna",
+  sub_home_001: "Lavori domestici, n.d.",
+  sub_home_002: "Preparazione di cibo e bevande",
+  sub_home_003: "Pulizia della cucina e delle stoviglie",
+  sub_home_004: "Manutenzione interna, riparazione e decorazione, n.d.",
+  sub_home_005: "Manutenzione esterna, riparazione e decorazione, n.d.",
+  sub_home_006: "Cura di animali domestici, n.d.",
+  sub_home_007: "Cura fisica dei bambini in casa",
+  sub_home_008: "Cura fisica degli adulti in casa",
+  sub_home_009: "Assistenza a membri non conviventi, n.d.",
+  sub_home_010: "Utilizzo di servizi veterinari",
+  sub_sport_000: "Aerobica",
+  sub_sport_001: "Giocare a baseball",
+  sub_sport_002: "Giocare a basket",
+  sub_sport_003: "Ciclismo",
+  sub_sport_004: "Giocare a biliardo",
+  sub_sport_005: "Navigare",
+  sub_sport_006: "Bowling",
+  sub_sport_007: "Arrampicata, speleologia, grotte",
+  sub_sport_008: "Partecipazione a sport equestri",
+  sub_sport_009: "Scherma",
+  sub_sport_010: "Giocare a calcio",
+  sub_sport_011: "Golf",
+  sub_sport_012: "Ginnastica",
+  sub_sport_013: "Giocare a hockey",
+  sub_sport_014: "Partecipare a arti marziali",
+  sub_sport_015: "Giocare a sport con racchetta",
+  sub_sport_016: "Partecipare a competizioni di rodeo",
+  sub_sport_017: "Giocare a rugby",
+  sub_sport_018: "Corsa",
+  sub_sport_019: "Sci, pattinaggio su ghiaccio, snowboard",
+  sub_sport_020: "Giocare a calcio",
+  sub_sport_021: "Softball",
+  sub_sport_022: "Tour/raduno veicolare",
+  sub_sport_023: "Giocare a pallavolo",
+  sub_sport_024: "Camminare",
+  sub_sport_025: "Partecipare a sport acquatici",
+  sub_sport_026: "Sollevamento pesi/allenamento di forza",
+  sub_sport_027: "Allenarsi, non specificato",
+  sub_sport_028: "Lotta",
+  sub_sport_029: "Praticare yoga",
+  sub_sport_030: "Giocare a sport, n.d.",
+  sub_sport_031: "Sport, esercizio e ricreazione, n.d.",
   comment: "Commento",
   from_these_filled: ", di cui compilati",
   total_in_period: "Totale nel periodo",
@@ -224,5 +337,41 @@ const ita = {
   deleteSubcategory: "Elimina sottocategoria",
   default: "(predefinito)",
   duplicateSubcategory: "Duplica la sottocategoria al tipo di giorno successivo",
+  about:"Sul programma",
   selfEval: "Autovalutazione dell'attività fisica"
 };
+
+const aboutText_ita=`
+<h1>Programma "Calcolatore delle attività per tutta la vita"</h1>
+<h2>Versione v3.0</h2>
+<ol>
+  <li>Aggiunto un pulsante "Informazioni sul programma" dove è possibile vedere tutte le modifiche delle versioni storiche.</li>
+  <li>Nuove sottocategorie introdotte per tutte le categorie.</li>
+  <li>Aggiunto supporto per la lingua ucraina.</li>
+  <li>Risolto un bug nell'importazione da MS Excel: le unità delle supercategorie non venivano cambiate in "Ore al giorno".</li>
+  <li>Risolto un bug nella cancellazione delle sottocategorie: quando si cancellava l'ultima sottocategoria, i campi di input della categoria padre non venivano riabilitati.</li>
+</ol>
+<h2>Versione v2.0</h2>
+<ol>
+  <li>Migliorato l'aspetto dei pulsanti e dei campi di input.</li>
+  <li>L'equazione di Mifflin St Jeor impostata come predefinita, e la parola "predefinito" aggiunta tra parentesi.</li>
+  <li>Aggiunta l'opzione di duplicare le sottocategorie per il tipo di giorno successivo cliccando sull'icona con una freccia verde. In questo caso, la sottocategoria nel tipo di giorno successivo viene evidenziata in rosso per notare facilmente che è stata aggiunta automaticamente e potrebbe richiedere attenzione per la correzione.</li>
+  <li>Aggiunto un controllo per assicurare che non vengano aggiunte più sottocategorie con lo stesso nome a una categoria (manualmente o duplicando [vedere punto 3]).</li>
+  <li>Aggiunto un nuovo campo di input "Autovalutazione dell'attività fisica" per ogni periodo, che viene anche esportato su Excel e importato nuovamente nel tool.</li>
+</ol>
+<h2>Versione v1.0</h2>
+<ol>
+  <li>Nuovo design con tutto in un unico posto.</li>
+  <li>Supporto multilingue.</li>
+  <li>Riorientata la struttura di categorie e sottocategorie - ora ogni tipo di giorno può avere il proprio insieme di categorie, e ogni categoria può avere il proprio insieme di sottocategorie.</li>
+  <li>Possibilità di eliminare periodi e ripristinare periodi eliminati.</li>
+  <li>Possibilità di aggiungere ed eliminare tipi di giorno (giorni lavorativi e vacanze).</li>
+  <li>Possibilità di eliminare sottocategorie.</li>
+  <li>Rinnovata la sezione di analisi dati per facilitare i ricalcoli (automatici), eseguendo varie azioni - aprendo questa sezione, premendo il pulsante "Ricalcola", cambiando l'equazione o il tipo di valore, ecc.</li>
+  <li>Nella sezione di analisi dati, aggiunta la possibilità di creare intervalli arbitrari, che vengono salvati anche durante il ricalcolo dei dati. Aggiunta anche l'opzione di eliminare gli intervalli creati.</li>
+  <li>Gli intervalli di analisi dati creati nell'esportazione su Excel vengono esportati insieme a tutti i dati del periodo.</li>
+  <li>L'importazione su Excel funziona solo per i file esportati con questa nuova versione CalcReloaded v1.0. Forse in seguito verrà realizzata (se necessario) anche l'importazione per i vecchi file.</li>
+  <li>Nota importante - durante l'importazione di un file Excel (pulsante "Carica da MS Excel"), il calcolatore deve essere impostato sulla stessa lingua della lingua utilizzata per l'esportazione del file importato (dopo l'importazione, naturalmente, la lingua può essere cambiata liberamente).</li>
+</ol>
+<br>
+`
