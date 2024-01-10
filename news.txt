@@ -1,8 +1,0 @@
-CalcReloaded v2.0
----
-1. Uzlabots pogu un ievadlauku izskats.
-2. Mifflin St Jeor vienādojums padarīts par noklusēto, kā arī tam iekavās pierakstīts vārds "noklusētais".
-3. Pielikta iespēja dublēt apakškategorijas uz nākamo dienas tipu, spiežot ikonu ar zaļas bultas attēlu. Tādā gadījumā nākamajā dienas tipā šī apakškategorija tiek iezīmēta sarkana, lai vieglāk būtu pamanīt, ka tā ir automātiski pievienota un ka tai, iespējams, vajag pievērst uzmanību, to piekoriģējot.
-4. Pielikta kontrole, vai vienai kategorijai netiek pievienotas (manuāli vai dublējot [skatīt 3. punktu]) vairākas apakškategorijas ar vienādiem nosaukumiem.
-5. Katram periodam pievienots jauns ievadlauks "Sava fiziskā aktivitāte", kas arī tiek eksportēts uz Excel un importēts no tā atpakaļ rīkā.
-
