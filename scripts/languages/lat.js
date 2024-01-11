@@ -352,9 +352,9 @@ const aboutText_lat=`
 <ol>
 <li>Pielikta poga "Par programmu", kurā var redzēt visu vēsturisko versiju izmaiņas.</li>
 <li>Visām kategorijām ieviestas jaunās apakškategorijas.</li>
-<li>Pievienots Ukraiņu valodas atbalsts.</li>
+<li>Pievienots ukraiņu valodas atbalsts.</li>
 <li>Izlabota kļūda importā no MS Excel: virskategoriju mērvienības netika nomainītas uz "Stundas dienā".</li>
-<li>Izlabota kļūda apakškategoriju dzēšanā: izdzēšot pēdējo apakškategorija, virskategorijas ievadlauki netika atiespējoti.</li>
+<li>Izlabota kļūda apakškategoriju dzēšanā: izdzēšot pēdējo apakškategoriju, virskategorijas ievadlauki netika atiespējoti.</li>
 </ol>
 <h2>Versija v2.0</h2>
 <ol>
