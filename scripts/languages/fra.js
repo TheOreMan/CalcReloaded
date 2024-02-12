@@ -190,11 +190,11 @@ const fra = {
   sub_free_001: "Construction et réparation de meubles",
   sub_free_002: "Pelouse, jardin et plantes d'intérieur",
   sub_free_003: "Réparation et entretien de véhicules (par soi-même)",
-  sub_free_004: "Soins et aide aux enfants du ménage, n.c.a.",
-  sub_free_005: "Éducation, n.c.a.",
-  sub_free_006: "Achats de consommation, n.c.a.",
-  sub_free_007: "Utilisation de services médicaux, n.c.a.",
-  sub_free_008: "Utilisation de services de maintenance, réparation, décoration, construction à domicile, n.c.a.",
+  sub_free_004: "Soins et aide aux enfants du ménage",
+  sub_free_005: "Éducation",
+  sub_free_006: "Achats de consommation",
+  sub_free_007: "Utilisation de services médicaux",
+  sub_free_008: "Utilisation de services de maintenance, réparation, décoration, construction à domicile",
   sub_free_009: "Obligations civiques et participation",
   sub_free_010: "Socialisation et communication avec les autres",
   sub_free_011: "Détente, réflexion",
@@ -223,7 +223,7 @@ const fra = {
   sub_free_034: "Assister à des événements sportifs, n.c.a.",
   sub_free_035: "Assister à des services religieux",
   sub_free_036: "Activités religieuses et spirituelles, n.c.a.",
-  sub_free_037: "Activités bénévoles, n.c.a.",
+  sub_free_037: "Activités bénévoles",
   sub_free_038: "Marche, marche à domicile",
   sub_free_039: "Marche, 3.2 km/h, niveau, pas lent, surface ferme",
   sub_sleep_000: "Dormir",
@@ -261,7 +261,7 @@ const fra = {
   sub_home_002: "Préparation de la nourriture et des boissons",
   sub_home_003: "Nettoyage de la cuisine et des ustensiles",
   sub_home_004: "Maintenance intérieure, réparation et décoration, n.c.a.",
-  sub_home_005: "Maintenance extérieure, réparation et décoration, n.c.a.",
+  sub_home_005: "Maintenance extérieure, réparation et décoration",
   sub_home_006: "Soin des animaux de compagnie, n.c.a.",
   sub_home_007: "Soin physique des enfants du ménage",
   sub_home_008: "Soin physique des adultes du ménage",
@@ -343,6 +343,11 @@ const fra = {
 
 const aboutText_fra=`
 <h1>Programme "Calculateur d'Activités à Vie"</h1>
+<h2>Version v3.1</h2>
+<ol>
+<li>Pour toutes les sous-catégories d'emploi, des exemples de professions spécifiques sont inclus entre parenthèses.</li>
+<li>L'abréviation "n.c.a." a été supprimée du titre de certaines sous-catégories de loisirs et de ménage.</li>
+</ol>
 <h2>Version v3.0</h2>
 <ol>
   <li>Ajouté un bouton "À propos du programme" où vous pouvez voir tous les changements de version historiques.</li>

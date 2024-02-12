@@ -190,11 +190,11 @@ const eng = {
   sub_free_001:"Building and repairing furniture",
   sub_free_002:"Lawn, Garden, and Houseplants",
   sub_free_003:"Vehicle repair and maintenance (by self)",
-  sub_free_004:"Caring for and helping household children, n.e.c.",
-  sub_free_005:"Education, n.e.c.",
-  sub_free_006:"Consumer purchases, n.e.c.",
-  sub_free_007:"Using medical services, n.e.c.",
-  sub_free_008:"Using home maintenance, repair, decoration, construction svcs, n.e.c.",
+  sub_free_004:"Caring for and helping household children",
+  sub_free_005:"Education",
+  sub_free_006:"Consumer purchases",
+  sub_free_007:"Using medical services",
+  sub_free_008:"Using home maintenance, repair, decoration, construction svcs",
   sub_free_009:"Civic obligations and participation",
   sub_free_010:"Socializing and communicating with others",
   sub_free_011:"Relaxing, thinking",
@@ -223,7 +223,7 @@ const eng = {
   sub_free_034:"Attending sporting events, n.e.c.",
   sub_free_035:"Attending religious services",
   sub_free_036:"Religious and spiritual activities, n.e.c.",
-  sub_free_037:"Volunteer activities, n.e.c.",
+  sub_free_037:"Volunteer activities",
   sub_free_038:"Walking, household walking",
   sub_free_039:"Walking, 3.2km/h, level, slow pace, firm surface",
   sub_sleep_000: "Sleeping",
@@ -261,7 +261,7 @@ const eng = {
   sub_home_002:"Food and drink preparation",
   sub_home_003:"Kitchen and Food Clean-Up",
   sub_home_004:"Interior maintenance, repair and decoration, n.e.c.",
-  sub_home_005:"Exterior maintenance, repair and decoration, n.e.c.",
+  sub_home_005:"Exterior maintenance, repair and decoration",
   sub_home_006:"Pet and animal care, n.e.c.",
   sub_home_007:"Physical care for HH children",
   sub_home_008:"Physical care for HH adults",
@@ -348,6 +348,11 @@ const eng = {
 
 const aboutText_eng=`
 <h1>Program "Lifetime Activities Calculator"</h1>
+<h2>Version v3.1</h2>
+<ol>
+<li>For all employment subcategories, examples of specific professions are enclosed in parentheses.</li>
+<li>The abbreviation "n.e.c." has been removed from the title of certain free time and household subcategories.</li>
+</ol>
 <h2>Version v3.0</h2>
 <ol>
   <li>Added a button "About the program" where you can see all historical version changes.</li>

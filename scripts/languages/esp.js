@@ -190,11 +190,11 @@ const esp = {
   sub_free_001: "Construcción y reparación de muebles",
   sub_free_002: "Césped, jardín y plantas de interior",
   sub_free_003: "Reparación y mantenimiento de vehículos (por uno mismo)",
-  sub_free_004: "Cuidado y ayuda a niños en el hogar, ",
-  sub_free_005: "Educación, n.c.p.",
-  sub_free_006: "Compras de consumo, n.c.p.",
-  sub_free_007: "Uso de servicios médicos, n.c.p.",
-  sub_free_008: "Uso de servicios de mantenimiento, reparación, decoración, construcción en el hogar, n.c.p.",
+  sub_free_004: "Cuidado y ayuda a niños en el hogar",
+  sub_free_005: "Educación",
+  sub_free_006: "Compras de consumo",
+  sub_free_007: "Uso de servicios médicos",
+  sub_free_008: "Uso de servicios de mantenimiento, reparación, decoración, construcción en el hogar",
   sub_free_009: "Obligaciones y participación cívica",
   sub_free_010: "Socializar y comunicarse con otros",
   sub_free_011: "Relajarse, pensar",
@@ -223,7 +223,7 @@ const esp = {
   sub_free_034: "Asistir a eventos deportivos, n.c.p.",
   sub_free_035: "Asistir a servicios religiosos",
   sub_free_036: "Actividades religiosas y espirituales, n.c.p.",
-  sub_free_037: "Actividades de voluntariado, n.c.p.",
+  sub_free_037: "Actividades de voluntariado",
   sub_free_038: "Caminar, caminar en casa",
   sub_free_039: "Caminar, 3.2 km/h, nivel, paso lento, superficie firme",
   sub_sleep_000: "Dormir",
@@ -261,7 +261,7 @@ const esp = {
   sub_home_002: "Preparación de alimentos y bebidas",
   sub_home_003: "Limpieza de la cocina y utensilios",
   sub_home_004: "Mantenimiento interior, reparación y decoración, n.c.p.",
-  sub_home_005: "Mantenimiento exterior, reparación y decoración, n.c.p.",
+  sub_home_005: "Mantenimiento exterior, reparación y decoración",
   sub_home_006: "Cuidado de mascotas y animales, n.c.p.",
   sub_home_007: "Cuidado físico de niños en casa",
   sub_home_008: "Cuidado físico de adultos en casa",
@@ -343,6 +343,11 @@ const esp = {
 
 const aboutText_esp=`
 <h1>Programa "Calculadora de Actividades de por Vida"</h1>
+<h2>Versión v3.1</h2>
+<ol>
+<li>Para todas las subcategorías de empleo, ejemplos de profesiones específicas están entre paréntesis.</li>
+<li>La abreviatura "n.c.p." ha sido eliminada del título de ciertas subcategorías de tiempo libre y hogar.</li>
+</ol>
 <h2>Versión v3.0</h2>
 <ol>
   <li>Añadido un botón "Acerca del programa" donde se pueden ver todos los cambios históricos de versiones.</li>

@@ -190,11 +190,11 @@ const lat = {
   sub_free_001:"Mēbeļu izgatavošana, atjaunošana un remonts",
   sub_free_002:"Dārzkopība un telpaugu kopšana",
   sub_free_003:"Pašrocīgi veikts automašīnu remonts un apkope",
-  sub_free_004:"Citur neminēts pavadītais laiks ar bērniem",
-  sub_free_005:"Citur neminētas izglītības aktivitātes",
-  sub_free_006:"Citur neminēta iepirkšanās",
-  sub_free_007:"Citur neminētu medicīnas pakalpojumu izmantošana",
-  sub_free_008:"Citur neminēta/neklasificēta dzīvesvietas labiekārtošana",
+  sub_free_004:"Laiks ar bērniem",
+  sub_free_005:"Mācīšanās",
+  sub_free_006:"Iepirkšanās",
+  sub_free_007:"Medicīnas pakalpojumu izmantošana",
+  sub_free_008:"Dzīvesvietas labiekārtošana",
   sub_free_009:"Pilsoniskā līdzdalība un pilsoniskā atbildība (vēlēšanas u.c. pasākumi)",
   sub_free_010:"Socializēšanās un komunikācija ar citiem ",
   sub_free_011:"Atpūta, relaksācija",
@@ -223,7 +223,7 @@ const lat = {
   sub_free_034:"Citur neminētu sporta pasākumu apmeklēšana",
   sub_free_035:"Dievkalpojumu, reliģisku pasākumu apmeklēšana",
   sub_free_036:"Citur neminētas reliģiskās un garīgās aktivitātes",
-  sub_free_037:"Citur neminētas brīvprātīgā darba aktivitātes",
+  sub_free_037:"Brīvprātīgā darba aktivitātes",
   sub_free_038:"Staigāšana/iešana, pārvietošanās pa dzīvesvietu",
   sub_free_039:"Lēna iešana, 3.2km/h, līdzens, lēns temps, stingra virsma",
   sub_sleep_000: "Miegs",
@@ -234,18 +234,18 @@ const lat = {
   sub_work_004:"Zinātne",
   sub_work_005:"Sociālie pakalpojumi un sociālā palīdzība",
   sub_work_006:"Tieslietas un jurisprudence",
-  sub_work_007:"Izglītība, zinātne un pētniecība",
+  sub_work_007:"Izglītība, pedagoģija un bibliotēkzinātne",
   sub_work_008:"Māksla, dizains, izklaide, sports un plašsaziņas līdzekļi",
   sub_work_009:"Ārstniecības persona",
   sub_work_010:"Ārstniecības atbalsta personāls",
   sub_work_011:"Sabiedrības aizsardzība un drošība",
-  sub_work_012:"Viesmīlības un ēdināšanas pakalpojumi",
+  sub_work_012:"Viesmīlība un ēdināšana",
   sub_work_013:"Teritoriju uzkopšana, ēku un būvju uzturēšana",
   sub_work_014:"Skaistumkopšana",
   sub_work_015:"Tirdzniecība un ar to saistītās profesijas",
   sub_work_016:"Biroja darbs u.c. administratīvais darbs",
   sub_work_017:"Lauksaimniecība, mežsaimniecība un zivsaimniecība",
-  sub_work_018:"Būvniecība ",
+  sub_work_018:"Būvniecība un dabas resursu izguve",
   sub_work_019:"Tehniķi un mehāniķi, iekārtu uzstādīšana, apkope un remonts",
   sub_work_020:"Ražošana",
   sub_work_021:"Transports un pārvadājumi",
@@ -261,7 +261,7 @@ const lat = {
   sub_home_002:"Maltītes pagatavošana (tai skaitā dzērienu)",
   sub_home_003:"Virtuves uzkopšana",
   sub_home_004:"Citur neminēta dzīvesvietas iekštelpu atjaunošana, remonts, apdare",
-  sub_home_005:"Citur neminēta dzīvesvietas ārtelpu atjaunošana (fasāde, jumts u.c.) remonts, apdare",
+  sub_home_005:"Dzīvesvietas ārtelpu atjaunošana (fasāde, jumts u.c.) remonts, apdare",
   sub_home_006:"Mājdzīvnieku aprūpe",
   sub_home_007:"Mājsaimniecībā esošu bērnu aprūpe",
   sub_home_008:"Mājsaimniecībā esošu pieaugušo aprūpe",
@@ -348,6 +348,12 @@ const lat = {
 
 const aboutText_lat=`
 <h1>Programma "Dzīves laika aktivitāšu kalkulators"</h1>
+<h2>Versija v3.1</h2>
+<ol>
+<li>Atsevišķām nodarbinātības apakškategorijām nomainīti nosaukumi uz latviskākiem.</li>
+<li>Visām nodarbinātības apakškategorijām iekavās pielikti konkrētu profesiju piemēri.</li>
+<li>Atsevišķām brīvā laika un sadzīves apakškategorijām no nosaukuma izmesta frāze "Citur neminēts".</li>
+</ol>
 <h2>Versija v3.0</h2>
 <ol>
 <li>Pielikta poga "Par programmu", kurā var redzēt visu vēsturisko versiju izmaiņas.</li>

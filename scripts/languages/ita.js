@@ -190,11 +190,11 @@ const ita = {
   sub_free_001: "Costruzione e riparazione di mobili",
   sub_free_002: "Prato, giardino e piante da interno",
   sub_free_003: "Riparazione e manutenzione di veicoli (fatto da sé)",
-  sub_free_004: "Cura e assistenza ai bambini in casa, n.d.",
-  sub_free_005: "Educazione, n.d.",
-  sub_free_006: "Acquisti, n.d.",
-  sub_free_007: "Utilizzo di servizi medici, n.d.",
-  sub_free_008: "Utilizzo di servizi di manutenzione, riparazione, decorazione, costruzione a casa, n.d.",
+  sub_free_004: "Cura e assistenza ai bambini in casa",
+  sub_free_005: "Educazione",
+  sub_free_006: "Acquisti",
+  sub_free_007: "Utilizzo di servizi medici",
+  sub_free_008: "Utilizzo di servizi di manutenzione, riparazione, decorazione, costruzione a casa",
   sub_free_009: "Obblighi civici e partecipazione",
   sub_free_010: "Socializzare e comunicare con gli altri",
   sub_free_011: "Rilassarsi, riflettere",
@@ -223,7 +223,7 @@ const ita = {
   sub_free_034: "Frequentare eventi sportivi, n.d.",
   sub_free_035: "Frequentare servizi religiosi",
   sub_free_036: "Attività religiose e spirituali, n.d.",
-  sub_free_037: "Attività di volontariato, n.d.",
+  sub_free_037: "Attività di volontariato",
   sub_free_038: "Camminare, camminare in casa",
   sub_free_039: "Camminare, 3.2 km/h, livello, passo lento, superficie ferma",
   sub_sleep_000: "Dormire",
@@ -261,7 +261,7 @@ const ita = {
   sub_home_002: "Preparazione di cibo e bevande",
   sub_home_003: "Pulizia della cucina e delle stoviglie",
   sub_home_004: "Manutenzione interna, riparazione e decorazione, n.d.",
-  sub_home_005: "Manutenzione esterna, riparazione e decorazione, n.d.",
+  sub_home_005: "Manutenzione esterna, riparazione e decorazione",
   sub_home_006: "Cura di animali domestici, n.d.",
   sub_home_007: "Cura fisica dei bambini in casa",
   sub_home_008: "Cura fisica degli adulti in casa",
@@ -343,6 +343,11 @@ const ita = {
 
 const aboutText_ita=`
 <h1>Programma "Calcolatore delle attività per tutta la vita"</h1>
+<h2>Versione v3.1</h2>
+<ol>
+<li>Per tutte le sottocategorie dell'occupazione, gli esempi di professioni specifiche sono racchiusi tra parentesi.</li>
+<li>L'abbreviazione "n.d." è stata rimossa dal titolo di alcune sottocategorie del tempo libero e della casa.</li>
+</ol>
 <h2>Versione v3.0</h2>
 <ol>
   <li>Aggiunto un pulsante "Informazioni sul programma" dove è possibile vedere tutte le modifiche delle versioni storiche.</li>

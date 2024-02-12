@@ -190,11 +190,11 @@ const vtn = {
   sub_free_001: "Xây dựng và sửa chữa đồ gỗ",
   sub_free_002: "Làm vườn, làm cảnh và chăm sóc cây cảnh trong nhà",
   sub_free_003: "Sửa chữa và bảo dưỡng phương tiện (tự thực hiện)",
-  sub_free_004: "Chăm sóc và giúp đỡ trẻ em trong gia đình, khác",
-  sub_free_005: "Giáo dục, khác",
-  sub_free_006: "Mua sắm tiêu dùng, khác",
-  sub_free_007: "Sử dụng dịch vụ y tế, khác",
-  sub_free_008: "Sử dụng dịch vụ bảo trì, sửa chữa, trang trí, xây dựng tại nhà, khác",
+  sub_free_004: "Chăm sóc và giúp đỡ trẻ em trong gia đình",
+  sub_free_005: "Giáo dục",
+  sub_free_006: "Mua sắm tiêu dùng",
+  sub_free_007: "Sử dụng dịch vụ y tế",
+  sub_free_008: "Sử dụng dịch vụ bảo trì, sửa chữa, trang trí, xây dựng tại nhà",
   sub_free_009: "Nghĩa vụ và tham gia công dân",
   sub_free_010: "Giao tiếp và giao tiếp với người khác",
   sub_free_011: "Thư giãn, suy nghĩ",
@@ -223,7 +223,7 @@ const vtn = {
   sub_free_034: "Tham gia sự kiện thể thao, khác",
   sub_free_035: "Tham gia các dịch vụ tôn giáo",
   sub_free_036: "Hoạt động tôn giáo và tâm linh, khác",
-  sub_free_037: "Hoạt động tình nguyện, khác",
+  sub_free_037: "Hoạt động tình nguyện",
   sub_free_038: "Đi bộ, đi bộ trong nhà",
   sub_free_039: "Đi bộ, 3.2 km/h, phẳng, bước chậm, bề mặt cứng",
   sub_sleep_000: "Ngủ",
@@ -261,7 +261,7 @@ const vtn = {
   sub_home_002: "Chuẩn bị thức ăn và đồ uống",
   sub_home_003: "Lau chùi bếp và dọn dẹp đồ ăn",
   sub_home_004: "Bảo dưỡng bên trong, sửa chữa và trang trí, khác",
-  sub_home_005: "Bảo dưỡng bên ngoài, sửa chữa và trang trí, khác",
+  sub_home_005: "Bảo dưỡng bên ngoài, sửa chữa và trang trí",
   sub_home_006: "Chăm sóc thú cưng và động vật, khác",
   sub_home_007: "Chăm sóc vật lý cho trẻ em trong gia đình",
   sub_home_008: "Chăm sóc vật lý cho người lớn trong gia đình",
@@ -343,6 +343,11 @@ const vtn = {
 
 const aboutText_vtn=`
 <h1>Chương trình "Bộ máy tính Hoạt động suốt đời"</h1>
+<h2>Phiên bản v3.1</h2>
+<ol>
+<li>Đối với tất cả các phân loại công việc, ví dụ về các nghề nghiệp cụ thể được đặt trong dấu ngoặc đơn.</li>
+<li>Từ "khác" đã bị xóa khỏi tiêu đề của một số danh mục phụ về thời gian rảnh rỗi và hộ gia đình.</li>
+</ol>
 <h2>Phiên bản v3.0</h2>
 <ol>
   <li>Thêm một nút "Về chương trình" nơi bạn có thể xem tất cả các thay đổi phiên bản lịch sử.</li>
