@@ -15,6 +15,12 @@ h2.input,h4.input {
   right: 0;
 }
 
+#login {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #about {
   position: fixed;
   bottom: 0;

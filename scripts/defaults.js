@@ -1,4 +1,4 @@
-var version="CALC Reloaded v3.1";
+var version="CALC Reloaded v3.2";
 var periodCount=0;
 var persons=[{
   periods:[],

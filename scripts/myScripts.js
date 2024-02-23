@@ -1,3 +1,59 @@
+function login_register(method,action,data,callback) {
+  var res=null;
+  $.ajax({
+    type: method,
+    url: 'http://192.168.55.143:5000/'+action,
+    data: data,
+    contentType: 'application/json',
+    success: function(response) {
+      callback(response.result);
+    },
+    error: function(error) {
+      callback('Error');
+    }
+  });
+  return res;
+}
+
+function login() {
+  var modal=document.getElementById("modal_login");
+  modal.style.display="block";
+  document.getElementById("password2div").style.display="none";
+  document.getElementById("loginTitle").setAttribute("tag","userlogin");
+  document.getElementById("login_okBtn").setAttribute("onclick","login_continued()");
+  rewriteAllTexts();
+}
+
+function login_continued() {
+  username=document.getElementById("username").value;
+  password=document.getElementById("password").value;
+  data={username: username, password: password};
+  login_register("GET","login",data, function(result) {
+    console.log('Authentication result:', result);
+  });
+  closeModal('modal_login');
+}
+
+function register() {
+  var modal=document.getElementById("modal_login");
+  modal.style.display="block";
+  document.getElementById("password2div").style.display="block";
+  document.getElementById("loginTitle").setAttribute("tag","userregister");
+  document.getElementById("login_okBtn").setAttribute("onclick","register_continued()");
+  rewriteAllTexts();
+}
+
+function register_continued() {
+  username=document.getElementById("username").value;
+  password=document.getElementById("password").value;
+  password2=document.getElementById("password2").value;
+  data={username: username, password: password, password2: password2};
+  login_register("GET","register",data, function(result) {
+    console.log('Authentication result:', result);
+  });
+  closeModal('modal_login');
+}
+
 function start() {
   document.title=version;
   document.getElementById("periods").style.display="block";

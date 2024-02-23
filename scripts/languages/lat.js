@@ -343,7 +343,15 @@ const lat = {
   default: "(noklusētais)",
   duplicateSubcategory:"Dublēt apakškategoriju uz nākamo dienas tipu",
   about:"Par programmu",
-  selfEval:"Sava fiziskā aktivitāte"
+  selfEval:"Sava fiziskā aktivitāte",
+
+  login: "Iežurnalēties",
+  register: "Reģistrēties",
+  userlogin: "Lietotāja iežurnalēšanās",
+  userregister: "Lietotāja reģistrēšanās",
+  username: "Lietotāja vārds",
+  password: "Parole",
+  password_repeated: "Parole atkārtoti"
 };
 
 const aboutText_lat=`
