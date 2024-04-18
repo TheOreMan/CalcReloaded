@@ -604,7 +604,8 @@ function generateSecondTab(excel) {
         var index=getFieldIndex(globalFieldArr,language[fieldArr[k].id]);
         for (var l=0;l<fieldArr[k].subs.length;l++) {
           var s=language[fieldArr[k].subs[l]];
-          if (!globalFieldArr[index].subs.includes(s)) globalFieldArr[index].subs.push(s);
+          //if (!globalFieldArr[index].subs.includes(s))
+            globalFieldArr[index].subs.push(s);
         }
       }
     }
@@ -770,6 +771,6 @@ function saveToExcel() {
     excel.mergeRow(0,row,0,offset-1);
     row+=6;
   }
-  generateSecondTab(excel);
+  //generateSecondTab(excel);
   excel.generate("Elpa_COG.xlsx");
 }

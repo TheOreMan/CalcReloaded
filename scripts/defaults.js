@@ -1,4 +1,4 @@
-var version="CALC Reloaded v3.2";
+var version="CALC Reloaded v4";
 var periodCount=0;
 var persons=[{
   periods:[],
@@ -226,6 +226,8 @@ function fillSubCategorysubCategoriesarray() {
  subCategories[i++]={id:"sub_free_037",name:"",met:2.29,category:"free"}
  subCategories[i++]={id:"sub_free_038",name:"",met:2,category:"free"}
  subCategories[i++]={id:"sub_free_039",name:"",met:2.5,category:"free"}
+ subCategories[i++]={id:"sub_free_040",name:"",met:1.54,category:"free"}
+ subCategories[i++]={id:"sub_free_041",name:"",met:1.54,category:"free"}
  subCategories[i++]={id:"sub_sleep_000",name:"",met:0.92,category:"sleep"}
  subCategories[i++]={id:"sub_work_000",name:"",met:1.73,category:"work"}
  subCategories[i++]={id:"sub_work_001",name:"",met:1.67,category:"work"}
@@ -256,7 +258,7 @@ function fillSubCategorysubCategoriesarray() {
  subCategories[i++]={id:"sub_walk_002",name:"",met:2,category:"walk"}
  subCategories[i++]={id:"sub_walk_003",name:"",met:1,category:"walk"}
  subCategories[i++]={id:"sub_walk_004",name:"",met:4,category:"walk"}
- subCategories[i++]={id:"sub_home_00",name:"",met:3.01,category:"home"}
+ subCategories[i++]={id:"sub_home_000",name:"",met:3.01,category:"home"}
  subCategories[i++]={id:"sub_home_001",name:"",met:2.51,category:"home"}
  subCategories[i++]={id:"sub_home_002",name:"",met:2.16,category:"home"}
  subCategories[i++]={id:"sub_home_003",name:"",met:2.54,category:"home"}
@@ -267,6 +269,8 @@ function fillSubCategorysubCategoriesarray() {
  subCategories[i++]={id:"sub_home_008",name:"",met:2.89,category:"home"}
  subCategories[i++]={id:"sub_home_009",name:"",met:2.18,category:"home"}
  subCategories[i++]={id:"sub_home_010",name:"",met:1.84,category:"home"}
+ subCategories[i++]={id:"sub_home_011",name:"",met:2.51,category:"home"}
+ subCategories[i++]={id:"sub_home_012",name:"",met:2.51,category:"home"}
  subCategories[i++]={id:"sub_sport_000",name:"",met:6.83,category:"sport"}
  subCategories[i++]={id:"sub_sport_001",name:"",met:5,category:"sport"}
  subCategories[i++]={id:"sub_sport_002",name:"",met:8,category:"sport"}
@@ -299,6 +303,10 @@ function fillSubCategorysubCategoriesarray() {
  subCategories[i++]={id:"sub_sport_029",name:"",met:3,category:"sport"}
  subCategories[i++]={id:"sub_sport_030",name:"",met:5.1,category:"sport"}
  subCategories[i++]={id:"sub_sport_031",name:"",met:4.78,category:"sport"}
+ subCategories[i++]={id:"sub_sport_032",name:"",met:4.78,category:"sport"}
+ subCategories[i++]={id:"sub_sport_033",name:"",met:4.78,category:"sport"}
+ subCategories[i++]={id:"sub_sport_034",name:"",met:5.1,category:"sport"}
+ subCategories[i++]={id:"sub_sport_035",name:"",met:5.1,category:"sport"}
 
  /*
  c=0;

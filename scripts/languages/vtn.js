@@ -209,7 +209,7 @@ const vtn = {
   sub_free_020: "Sở thích, trừ nghệ thuật và thủ công và sưu tập",
   sub_free_021: "Đọc vì quan tâm cá nhân",
   sub_free_022: "Viết vì quan tâm cá nhân",
-  sub_free_023: "Thư giãn và giải trí, khác",
+  sub_free_023: "Thư giãn và giải trí, khác, 1",
   sub_free_024: "Tham gia nghệ thuật biểu diễn",
   sub_free_025: "Tham gia viện bảo tàng",
   sub_free_026: "Tham gia xem phim",
@@ -226,6 +226,8 @@ const vtn = {
   sub_free_037: "Hoạt động tình nguyện",
   sub_free_038: "Đi bộ, đi bộ trong nhà",
   sub_free_039: "Đi bộ, 3.2 km/h, phẳng, bước chậm, bề mặt cứng",
+  sub_free_040: "Thư giãn và giải trí, khác, 2",
+  sub_free_041: "Thư giãn và giải trí, khác, 3",
   sub_sleep_000: "Ngủ",
   sub_work_000:"Quản lý (giám đốc, quản lý, giám sát)",
   sub_work_001:"Kinh doanh và Tài chính (kế toán, nhà phân tích kinh doanh, chuyên viên tài chính)",
@@ -257,7 +259,7 @@ const vtn = {
   sub_walk_003: "Điều khiển trong ô tô hoặc xe tải",
   sub_walk_004: "Đi xe đạp, <16 km/h, giải trí, đi làm hoặc để thưởng thức",
   sub_home_000: "Lau chùi bên trong",
-  sub_home_001: "Việc nhà, khác",
+  sub_home_001: "Việc nhà, khác, 1",
   sub_home_002: "Chuẩn bị thức ăn và đồ uống",
   sub_home_003: "Lau chùi bếp và dọn dẹp đồ ăn",
   sub_home_004: "Bảo dưỡng bên trong, sửa chữa và trang trí, khác",
@@ -267,6 +269,8 @@ const vtn = {
   sub_home_008: "Chăm sóc vật lý cho người lớn trong gia đình",
   sub_home_009: "Chăm sóc và giúp đỡ những người không phải thành viên trong gia đình, khác",
   sub_home_010: "Sử dụng dịch vụ thú y",
+  sub_home_011: "Việc nhà, khác, 2",
+  sub_home_012: "Việc nhà, khác, 3",
   sub_sport_000: "Tập thể dục",
   sub_sport_001: "Chơi bóng chày",
   sub_sport_002: "Chơi bóng rổ",
@@ -297,8 +301,12 @@ const vtn = {
   sub_sport_027: "Tập luyện, không xác định",
   sub_sport_028: "Đấu vật",
   sub_sport_029: "Tập yoga",
-  sub_sport_030: "Chơi thể thao, khác",
-  sub_sport_031: "Thể thao, tập luyện và giải trí, khác",
+  sub_sport_030: "Chơi thể thao, khác, 1",
+  sub_sport_031: "Thể thao, tập luyện và giải trí, khác, 1",
+  sub_sport_032: "Thể thao, tập luyện và giải trí, khác, 2",
+  sub_sport_033: "Thể thao, tập luyện và giải trí, khác, 3",
+  sub_sport_034: "Chơi thể thao, khác, 2",
+  sub_sport_035: "Chơi thể thao, khác, 3",
   comment: "Bình luận",
   from_these_filled: ", trong số đó đã được điền",
   total_in_period: "Tổng trong khoảng thời gian",
@@ -343,6 +351,17 @@ const vtn = {
 
 const aboutText_vtn=`
 <h1>Chương trình "Bộ máy tính Hoạt động suốt đời"</h1>
+<h2>Phiên bản v4</h2>
+<ol>
+<li>Bốn phân loại con đã được nhân ba:</li>
+  <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+    <li>Thư giãn và giải trí, n.e.c.</li>
+    <li>Công việc nhà, n.e.c.</li>
+    <li>Thể thao, tập thể dục và giải trí, n.e.c.</li>
+    <li>Chơi thể thao, n.e.c.</li>
+  </ol>
+<li>Đã tạo ra một phiên bản đơn giản hóa của việc triển khai công cụ - hiện nó có sẵn trong chế độ kiểm tra tại https://theoreman.github.io/CalcReloaded</li>
+</ol>
 <h2>Phiên bản v3.1</h2>
 <ol>
 <li>Đối với tất cả các phân loại công việc, ví dụ về các nghề nghiệp cụ thể được đặt trong dấu ngoặc đơn.</li>

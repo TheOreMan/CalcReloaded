@@ -209,7 +209,7 @@ const esp = {
   sub_free_020: "Pasatiempos, excepto artes y manualidades y coleccionismo",
   sub_free_021: "Leer por interés personal",
   sub_free_022: "Escribir por interés personal",
-  sub_free_023: "Relajación y ocio, n.c.p.",
+  sub_free_023: "Relajación y ocio, n.c.p., 1",
   sub_free_024: "Asistir a las artes escénicas",
   sub_free_025: "Asistir a museos",
   sub_free_026: "Asistir a películas/cine",
@@ -226,6 +226,8 @@ const esp = {
   sub_free_037: "Actividades de voluntariado",
   sub_free_038: "Caminar, caminar en casa",
   sub_free_039: "Caminar, 3.2 km/h, nivel, paso lento, superficie firme",
+  sub_free_040: "Relajación y ocio, n.c.p., 2",
+  sub_free_041: "Relajación y ocio, n.c.p., 3",
   sub_sleep_000: "Dormir",
   sub_work_000:"Gestión (directores, gerentes, supervisores)",
   sub_work_001:"Negocios y Finanzas (contadores, analistas de negocios, especialistas financieros)",
@@ -257,7 +259,7 @@ const esp = {
   sub_walk_003: "Viajar en un automóvil o camión",
   sub_walk_004: "Ciclismo, <16 km/h, ocio, para trabajar o por placer",
   sub_home_000: "Limpieza interior",
-  sub_home_001: "Trabajo doméstico, n.c.p.",
+  sub_home_001: "Trabajo doméstico, n.c.p., 1",
   sub_home_002: "Preparación de alimentos y bebidas",
   sub_home_003: "Limpieza de la cocina y utensilios",
   sub_home_004: "Mantenimiento interior, reparación y decoración, n.c.p.",
@@ -267,6 +269,8 @@ const esp = {
   sub_home_008: "Cuidado físico de adultos en casa",
   sub_home_009: "Cuidar y ayudar a miembros no convivientes, n.c.p.",
   sub_home_010: "Uso de servicios veterinarios",
+  sub_home_011: "Trabajo doméstico, n.c.p., 2",
+  sub_home_012: "Trabajo doméstico, n.c.p., 3",
   sub_sport_000: "Haciendo aeróbicos",
   sub_sport_001: "Jugando béisbol",
   sub_sport_002: "Jugando baloncesto",
@@ -297,8 +301,12 @@ const esp = {
   sub_sport_027: "Haciendo ejercicio, no especificado",
   sub_sport_028: "Lucha",
   sub_sport_029: "Haciendo yoga",
-  sub_sport_030: "Jugando deportes, n.c.p.",
-  sub_sport_031: "Deportes, ejercicio y recreación, n.c.p.",
+  sub_sport_030: "Jugando deportes, n.c.p., 1",
+  sub_sport_031: "Deportes, ejercicio y recreación, n.c.p., 1",
+  sub_sport_032: "Deportes, ejercicio y recreación, n.c.p., 2",
+  sub_sport_033: "Deportes, ejercicio y recreación, n.c.p., 3",
+  sub_sport_034: "Jugando deportes, n.c.p., 2",
+  sub_sport_035: "Jugando deportes, n.c.p., 3",
   comment: "Comentario",
   from_these_filled: ", de los cuales están completados",
   total_in_period: "Total en el periodo",
@@ -343,6 +351,17 @@ const esp = {
 
 const aboutText_esp=`
 <h1>Programa "Calculadora de Actividades de por Vida"</h1>
+<h2>Versión v4</h2>
+<ol>
+<li>Se han triplicado cuatro subcategorías:</li>
+  <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+    <li>Relajación y ocio, n.e.c.</li>
+    <li>Tareas domésticas, n.e.c.</li>
+    <li>Deportes, ejercicio y recreación, n.e.c.</li>
+    <li>Jugar deportes, n.e.c.</li>
+  </ol>
+<li>Se ha creado una versión simplificada de la implementación de la herramienta; ahora está disponible en modo de prueba en https://theoreman.github.io/CalcReloaded</li>
+</ol>
 <h2>Versión v3.1</h2>
 <ol>
 <li>Para todas las subcategorías de empleo, ejemplos de profesiones específicas están entre paréntesis.</li>

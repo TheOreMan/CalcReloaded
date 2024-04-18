@@ -209,7 +209,7 @@ const eng = {
   sub_free_020:"Hobbies, except arts and crafts and collecting",
   sub_free_021:"Reading for personal interest",
   sub_free_022:"Writing for personal interest",
-  sub_free_023:"Relaxing and leisure, n.e.c.",
+  sub_free_023:"Relaxing and leisure, n.e.c., 1",
   sub_free_024:"Attending performing arts",
   sub_free_025:"Attending museums",
   sub_free_026:"Attending movies/film",
@@ -226,6 +226,8 @@ const eng = {
   sub_free_037:"Volunteer activities",
   sub_free_038:"Walking, household walking",
   sub_free_039:"Walking, 3.2km/h, level, slow pace, firm surface",
+  sub_free_040:"Relaxing and leisure, n.e.c., 2",
+  sub_free_041:"Relaxing and leisure, n.e.c., 3",
   sub_sleep_000: "Sleeping",
   sub_work_000:"Management (directors, managers, supervisors)",
   sub_work_001:"Business and Financial (accountants, business analysts, financial specialists)",
@@ -257,7 +259,7 @@ const eng = {
   sub_walk_003:"Riding in a car or truck",
   sub_walk_004:"Bicycling, <16 km/h, leisure, to work or for pleasure",
   sub_home_000:"Interior Cleaning",
-  sub_home_001:"Housework, n.e.c.",
+  sub_home_001:"Housework, n.e.c., 1",
   sub_home_002:"Food and drink preparation",
   sub_home_003:"Kitchen and Food Clean-Up",
   sub_home_004:"Interior maintenance, repair and decoration, n.e.c.",
@@ -267,6 +269,8 @@ const eng = {
   sub_home_008:"Physical care for HH adults",
   sub_home_009:"Caring for and helping nonHH members, n.e.c.",
   sub_home_010:"Using veterinary services",
+  sub_home_011:"Housework, n.e.c., 2",
+  sub_home_012:"Housework, n.e.c., 3",
   sub_sport_000:"Doing Aerobics",
   sub_sport_001:"Playing baseball",
   sub_sport_002:"Playing basketball",
@@ -297,8 +301,12 @@ const eng = {
   sub_sport_027:"Working out, unspecified",
   sub_sport_028:"Wrestling",
   sub_sport_029:"Doing yoga",
-  sub_sport_030:"Playing sports, n.e.c.",
-  sub_sport_031:"Sports, exercise and recreation, n.e.c.",
+  sub_sport_030:"Playing sports, n.e.c., 1",
+  sub_sport_031:"Sports, exercise and recreation, n.e.c., 1",
+  sub_sport_032:"Sports, exercise and recreation, n.e.c., 2",
+  sub_sport_033:"Sports, exercise and recreation, n.e.c., 3",
+  sub_sport_034:"Playing sports, n.e.c., 2",
+  sub_sport_035:"Playing sports, n.e.c., 3",
   sub_all_0: "1: Low activity",
   sub_all_1: "2: Medium low activity",
   sub_all_2: "3: Medium activity",
@@ -348,6 +356,17 @@ const eng = {
 
 const aboutText_eng=`
 <h1>Program "Lifetime Activities Calculator"</h1>
+<h2>Version v4</h2>
+<ol>
+<li>Four subcategories have been triplicated:</li>
+  <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+    <li>Relaxing and leisure, n.e.c.</li>
+    <li>Housework, n.e.c.</li>
+    <li>Sports, exercise and recreation, n.e.c.</li>
+    <li>Playing sports, n.e.c.</li>
+  </ol>
+<li>A simplified version of the deployment of the tool has been created - it is now available in test mode at https://theoreman.github.io/CalcReloaded</li>
+</ol>
 <h2>Version v3.1</h2>
 <ol>
 <li>For all employment subcategories, examples of specific professions are enclosed in parentheses.</li>

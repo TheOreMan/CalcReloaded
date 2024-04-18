@@ -209,7 +209,7 @@ const lat = {
   sub_free_020:"Citi hobiji, izņemot mākslu, rokdarbus un kolekcionēšanu",
   sub_free_021:"Lasīšana",
   sub_free_022:"Rakstīšana",
-  sub_free_023:"Citur neminēti atpūtas veidi",
+  sub_free_023:"Citur neminēti atpūtas veidi 1",
   sub_free_024:"Skatuves mākslas pasākumu apmeklēšana",
   sub_free_025:"Muzeju apmeklēšana",
   sub_free_026:"Kino apmeklēšana",
@@ -226,6 +226,8 @@ const lat = {
   sub_free_037:"Brīvprātīgā darba aktivitātes",
   sub_free_038:"Staigāšana/iešana, pārvietošanās pa dzīvesvietu",
   sub_free_039:"Lēna iešana, 3.2km/h, līdzens, lēns temps, stingra virsma",
+  sub_free_040:"Citur neminēti atpūtas veidi 2",
+  sub_free_041:"Citur neminēti atpūtas veidi 3",
   sub_sleep_000: "Miegs",
   sub_work_000:"Vadība un pārvaldība (direktori, vadītāji, priekšnieki)",
   sub_work_001:"Uzņēmējdarbība un finanses (grāmatveži, biznesa analītiķi, finanšu speciālisti)",
@@ -254,10 +256,10 @@ const lat = {
   sub_walk_000:"Pārvietošanās/staigāšana darba laikā mērenā tempā",
   sub_walk_001:"Iešana no mājam uz automašīnu vai autobusu; iešana no automašīnas vai autobusa līdz galamērķim, iešana no automašīnas vai autobusa uz un no darba vietas",
   sub_walk_002:"Vieglā auto transporta vadīšana (B kategorijas tiesības)",
-  sub_walk_003:"Pārvietošanās ka pasažierim vieglajā vai smagajā auto transportā (ne sabiedriskajā transportā)",
+  sub_walk_003:"Pārvietošanās kā pasažierim vieglajā vai smagajā auto transportā",
   sub_walk_004:"Pārvientošanās ar velosipēdu (nepiedaloties sacensībās)",
   sub_home_000:"Iekštelpu uzkopšana",
-  sub_home_001:"Citur neminēti mājsaimniecības darbi",
+  sub_home_001:"Citur neminēti mājsaimniecības darbi 1",
   sub_home_002:"Maltītes pagatavošana (tai skaitā dzērienu)",
   sub_home_003:"Virtuves uzkopšana",
   sub_home_004:"Citur neminēta dzīvesvietas iekštelpu atjaunošana, remonts, apdare",
@@ -267,6 +269,8 @@ const lat = {
   sub_home_008:"Mājsaimniecībā esošu pieaugušo aprūpe",
   sub_home_009:"Ārpus mājsaimniecības esošu cilvēku aprūpe",
   sub_home_010:"Veterināro pakalpojumu izmantošana",
+  sub_home_011:"Citur neminēti mājsaimniecības darbi 2",
+  sub_home_012:"Citur neminēti mājsaimniecības darbi 3",
   sub_sport_000:"Aerobikas vingrinājumi",
   sub_sport_001:"Beisbols",
   sub_sport_002:"Basketbols",
@@ -297,8 +301,12 @@ const lat = {
   sub_sport_027:"Treniņš (treniņnodarbība), neprecizēta",
   sub_sport_028:"Cīkstēšanās",
   sub_sport_029:"Joga",
-  sub_sport_030:"Citur neminēts komandu sports",
-  sub_sport_031:"Citur neminēts individuālais sports",
+  sub_sport_030:"Citur neminēts komandu sports 1",
+  sub_sport_031:"Citur neminēts individuālais sports 1",
+  sub_sport_032:"Citur neminēts individuālais sports 2",
+  sub_sport_033:"Citur neminēts individuālais sports 3",
+  sub_sport_034:"Citur neminēts komandu sports 2",
+  sub_sport_035:"Citur neminēts komandu sports 3",
   sub_all_0: "1: Zema aktivitāte",
   sub_all_1: "2: Vidēji zema aktivitāte",
   sub_all_2: "3: Vidēja aktivitāte",
@@ -356,6 +364,18 @@ const lat = {
 
 const aboutText_lat=`
 <h1>Programma "Dzīves laika aktivitāšu kalkulators"</h1>
+<h2>Versija v4</h2>
+<ol>
+<li>Pārvietošanās apakškategorija "Pārvietošanās ka pasažierim vieglajā vai smagajā auto transportā (ne sabiedriskajā transportā)" pārsaukta par "Pārvietošanās kā pasažierim vieglajā vai smagajā auto transportā".</li>
+<li>Četrām apakškategorijām izveidotas pa trim kopijām katrai:</li>
+  <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+   <li>Citur neminēti atpūtas veidi</li>
+   <li>Citur neminēti mājsaimniecības darbi</li>
+   <li>Citur neminēts individuālais sports</li>
+   <li>Citur neminēts komandu sports</li>
+ </ol>
+<li>Izveidots atvieglots variants rīka izplatīšanai - tas tagad testa režīmā pieejams saitē https://theoreman.github.io/CalcReloaded</li>
+</ol>
 <h2>Versija v3.1</h2>
 <ol>
 <li>Atsevišķām nodarbinātības apakškategorijām nomainīti nosaukumi uz latviskākiem.</li>

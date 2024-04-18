@@ -1632,6 +1632,20 @@ function addSubField_final(event) {
   field.subs.push(id);
   addSubCategoryToSubDiv(res,false);
   rewriteAllTexts();
+  /*
+  var labels=[],x=0;
+  for (var i=0;i<field.subs.length;i++) {
+    var lab=document.getElementById("person_0_period_"+res.period.id+"_"+res.dayType.id+"_"+field.id+"_sub_"+i+"_label");
+    var label=lab.innerText;
+    label=label.substring(0,label.length-1);
+    if (labels.includes(label)) {
+      label+="{"+(x++)+"}";
+      lab.innerText=label;
+    }
+    labels.push(label);
+    console.log(labels);
+  }
+  */
 }
 
 function addSubCategoryToSubDiv(res,auto) {
