@@ -364,6 +364,11 @@ const lat = {
 
 const aboutText_lat=`
 <h1>Programma "Dzīves laika aktivitāšu kalkulators"</h1>
+<h2>Versija v4.1</h2>
+<ol>
+<li>Ja, ielasot datus no Excel, tiek sastapta apakškategorija, kas šajā rīka versijā neeksistē, tās nosaukums uzskatāmības labad tiek ielikts kvadrātiekavās.</li>
+<li>Ielasot datus no Excel, pielikta pārbaude, vai apakškategorijas nosaukums nesakrīt ar kādu no vecajiem nosaukumiem, kuri tika nomainīti uz citiem versijā v4 - tādā gadījumā tie tiek aizstāti ar kādu no jaunajiem.</li>
+</ol>
 <h2>Versija v4</h2>
 <ol>
 <li>Pārvietošanās apakškategorija "Pārvietošanās ka pasažierim vieglajā vai smagajā auto transportā (ne sabiedriskajā transportā)" pārsaukta par "Pārvietošanās kā pasažierim vieglajā vai smagajā auto transportā".</li>

@@ -351,6 +351,10 @@ const vtn = {
 
 const aboutText_vtn=`
 <h1>Chương trình "Bộ máy tính Hoạt động suốt đời"</h1>
+<h2>Phiên bản v4.1</h2>
+<ol>
+<li>Nếu khi đọc dữ liệu từ Excel, gặp một danh mục con không tồn tại trong phiên bản công cụ này, tên của nó sẽ được đặt trong dấu ngoặc vuông để làm rõ.</li>
+</ol>
 <h2>Phiên bản v4</h2>
 <ol>
 <li>Bốn phân loại con đã được nhân ba:</li>

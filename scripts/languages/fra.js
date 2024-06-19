@@ -351,6 +351,10 @@ const fra = {
 
 const aboutText_fra=`
 <h1>Programme "Calculateur d'Activités à Vie"</h1>
+<h2>Version v4.1</h2>
+<ol>
+<li>Si, lors de la lecture des données d'Excel, on rencontre une sous-catégorie qui n'existe pas dans cette version de l'outil, son nom est placé entre crochets pour plus de clarté.</li>
+</ol>
 <h2>Version v4</h2>
 <ol>
 <li>Quatre sous-catégories ont été triplées :</li>

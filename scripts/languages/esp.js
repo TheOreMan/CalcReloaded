@@ -351,6 +351,10 @@ const esp = {
 
 const aboutText_esp=`
 <h1>Programa "Calculadora de Actividades de por Vida"</h1>
+<h2>Versión v4.1</h2>
+<ol>
+<li>Si al leer datos de Excel se encuentra una subcategoría que no existe en esta versión de la herramienta, su nombre se coloca entre corchetes para mayor claridad.</li>
+</ol>
 <h2>Versión v4</h2>
 <ol>
 <li>Se han triplicado cuatro subcategorías:</li>

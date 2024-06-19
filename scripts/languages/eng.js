@@ -356,6 +356,10 @@ const eng = {
 
 const aboutText_eng=`
 <h1>Program "Lifetime Activities Calculator"</h1>
+<h2>Version v4.1</h2>
+<ol>
+<li>If, when reading data from Excel, a subcategory is encountered that does not exist in this version of the tool, its name is placed in square brackets for clarity.</li>
+</ol>
 <h2>Version v4</h2>
 <ol>
 <li>Four subcategories have been triplicated:</li>

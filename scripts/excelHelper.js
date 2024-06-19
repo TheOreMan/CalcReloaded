@@ -186,6 +186,17 @@ function getSubId(s) {
     if (!key.startsWith("sub_")) continue;
     if (value==s) return key;
   }
+  return "["+s+"]";
+}
+
+function checkAndReplaceOlds(s) {
+  switch (s) {
+    case "Pārvietošanās ka pasažierim vieglajā vai smagajā auto transportā (ne sabiedriskajā transportā)": return "Pārvietošanās kā pasažierim vieglajā vai smagajā auto transportā";
+    case "Citur neminēti atpūtas veidi":;
+    case "Citur neminēti mājsaimniecības darbi":;
+    case "Citur neminēts individuālais sports":;
+    case "Citur neminēts komandu sports": return s+" 1";
+  }
   return s;
 }
 
@@ -212,6 +223,7 @@ function generateDayTypes(sheet,row) {
       dayTypes[dayTypes.length-1].fields.push(field);
       var subFieldName=getCellValue(sheet,col+(row+3));
       while (subFieldName!=language["comment"]) {
+        subFieldName=checkAndReplaceOlds(subFieldName)
         if (subFieldName!="") field.subs.push(getSubId(subFieldName));
         col=getNextColumn(col);
         subFieldName=getCellValue(sheet,col+(row+3));
