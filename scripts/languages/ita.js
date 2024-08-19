@@ -351,6 +351,10 @@ const ita = {
 
 const aboutText_ita=`
 <h1>Programma "Calcolatore delle attività per tutta la vita"</h1>
+<h2>Versione v4.2</h2>
+<ol>
+<li>Corretto un errore nel calcolo delle ore al giorno quando si sceglievano le unità "Ore per settimana" e "Ore per mese".</li>
+</ol>
 <h2>Versione v4.1</h2>
 <ol>
 <li>Se durante la lettura dei dati da Excel si incontra una sottocategoria che non esiste in questa versione dello strumento, il suo nome viene inserito tra parentesi quadre per chiarezza.</li>

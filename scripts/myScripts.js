@@ -184,7 +184,7 @@ function generateArrays() {
         var prefix="person_0_period_"+periodNr+"_"+dayTypeArr[j].id+"_"+fieldArr[k].id+"_";
         var val=document.getElementById(prefix+"value").value;
         var measureVal=document.getElementById(prefix+"measure").selectedIndex;
-        var res=calculateTotalValue(fieldArr[k].id,val,measureVal,daysTotal);
+        var res=calculateTotalValue(prefix,fieldArr[k].id,val,measureVal,daysTotal);
         if (!isNaN(res)) res=Number(res); else res=0.0;
         periodDaysArr[k]+=res;
         var sum=0;
@@ -192,7 +192,7 @@ function generateArrays() {
           var prefix="person_0_period_"+periodNr+"_"+dayTypeArr[j].id+"_"+fieldArr[k].id+"_sub_"+l+"_";
           var val=document.getElementById(prefix+"value").value;
           var measureVal=document.getElementById(prefix+"measure").selectedIndex;
-          var res=calculateTotalValue(fieldArr[k].id,val,measureVal,daysTotal);
+          var res=calculateTotalValue(prefix,fieldArr[k].id,val,measureVal,daysTotal);
           if (!isNaN(res)) res=Number(res); else res=0.0;
           var x=res*getMetsByName(fieldArr[k].subs[l]);
           sum+=x;
@@ -1160,7 +1160,7 @@ function valueChanged(id,dayType,periodNr) {
   dayType.fields.forEach((item, i) => {
     var val=Number(document.getElementById(prefix+item.id+"_value").value);
     var measure=document.getElementById(prefix+item.id+"_measure").selectedIndex;
-    var h=getHours(val,measure,item.id);
+    var h=getHours(prefix,val,measure,item.id);
     sum+=h;
   });
   var totalDays=getPeriodDayTypeDayCount(periodNr,dayType);
@@ -1191,19 +1191,23 @@ function valueChanged(id,dayType,periodNr) {
   rewriteAllTexts();
 }
 
-function getHours(val,measure,id) {
+function getHours(prefix,val,measure,id) {
+  var vol=document.getElementById(prefix+"volume_value");
+  var volValue=7;
+  if (vol)
+    if (prefix.includes("_weekends_")) volValue=vol.innerText; else volValue=vol.value;
   var div=1;
   if (id=="sleep" || id=="work") {
     switch (measure) {
-      case 1: div=7; break;
-      case 2: div=30.4375; break;
+      case 1: div=volValue; break;
+      case 2: div=30.4375/7*volValue; break;
     }
   }
   else {
     switch (measure) {
       case 0: div=60; break;
-      case 2: div=7; break;
-      case 3: div=30.4375; break;
+      case 2: div=volValue; break;
+      case 3: div=30.4375/7*volValue; break;
     }
   }
   return val/div;
@@ -1215,7 +1219,7 @@ function subValueChanged(id,field,dayType,periodNr) {
   field.subs.forEach((item, i) => {
     var val=Number(document.getElementById(id+"_sub_"+i+"_value").value);
     var measure=document.getElementById(id+"_sub_"+i+"_measure").selectedIndex;
-    var h=getHours(val,measure,field.id);
+    var h=getHours(id.substring(0,id.lastIndexOf("_"))+"_",val,measure,field.id);
     sum+=h;
   });
   var f=document.getElementById(id+"_value");
@@ -1253,6 +1257,7 @@ function volumeValueChanged(periodNr) {
       var prefix="person_0_period_"+periodNr+"_"+item.id+"_volume_";
       if (item.type<3) document.getElementById(prefix+"secondValue").innerText=weeks;
       if (item.type==2) document.getElementById(prefix+"value").innerText=free;
+      refreshAllValues(periodNr,item);
     }
   });
   refreshDayTypeTotalDays(periodNr);
@@ -1496,6 +1501,13 @@ function refreshDayTypeTotalDays(periodNr) {
     var prefix="person_0_period_"+periodNr+"_"+item.id+"_";
     document.getElementById(prefix+"totalDays").innerText=getPeriodDayTypeDayCount(periodNr,item).toFixed(0);
     valueChanged("",item,periodNr);
+  });
+}
+
+function refreshAllValues(periodNr,dayType) {
+  var prefix="person_0_period_"+periodNr+"_"+dayType.id+"_";
+  dayType.fields.forEach((item, i) => {
+    subValueChanged(prefix+item.id+"_sub_0_value",item,dayType,periodNr)
   });
 }
 

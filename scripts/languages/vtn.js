@@ -351,6 +351,10 @@ const vtn = {
 
 const aboutText_vtn=`
 <h1>Chương trình "Bộ máy tính Hoạt động suốt đời"</h1>
+<h2>Phiên bản v4.2</h2>
+<ol>
+<li>Đã sửa lỗi trong việc tính toán số giờ mỗi ngày khi chọn đơn vị "Giờ mỗi tuần" và "Giờ mỗi tháng".</li>
+</ol>
 <h2>Phiên bản v4.1</h2>
 <ol>
 <li>Nếu khi đọc dữ liệu từ Excel, gặp một danh mục con không tồn tại trong phiên bản công cụ này, tên của nó sẽ được đặt trong dấu ngoặc vuông để làm rõ.</li>

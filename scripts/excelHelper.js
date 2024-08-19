@@ -323,14 +323,22 @@ function handleFileSelect(evt) {
  xl2json.parseExcel(files[0]);
 }
 
-function calculateTotalValue(fieldId,inp,measure,totalDays) {
+function calculateTotalValue(prefix,fieldId,inp,measure,totalDays) {
+  var s="";
+  if (prefix.includes("_workdays_" )) s=prefix.substring(0,prefix.indexOf("_workdays_"))+"_workdays_volume_value";
+  else if (prefix.includes("_weekends_" )) s=prefix.substring(0,prefix.indexOf("_weekends_"))+"_weekends_volume_value";
+  else s=prefix.substring(0,prefix.indexOf("_vacations_"))+"_vacations_volume_value";
+  var vol=document.getElementById(s);
+  var volValue=7;
+  if (vol)
+    if (prefix.includes("_weekends_")) volValue=vol.innerText; else volValue=vol.value;
   if (fieldId=="sleep" || fieldId=="work") measure++;
   var res=inp;
   switch (measure) {
     case 0:res*=totalDays/1440;break;
     case 1:res*=totalDays/24;break;
-    case 2:res*=totalDays/7/24;break;
-    case 3:res*=totalDays/30.4375/24;break;
+    case 2:res*=totalDays/volValue/24;break;
+    case 3:res*=totalDays/30.4375/7*volValue/24;break;
   }
   if (!isNaN(res)) res=Number(res).toFixed(2); else res="---";
   return res;
@@ -456,7 +464,7 @@ function generateReview() {
         var prefix="person_0_period_"+periodNr+"_"+dayTypeArr[j].id+"_"+fieldArr[k].id+"_";
         var val=document.getElementById(prefix+"value").value;
         var measureVal=document.getElementById(prefix+"measure").selectedIndex;
-        var res=calculateTotalValue(fieldArr[k].id,val,measureVal,daysTotal);
+        var res=calculateTotalValue(prefix,fieldArr[k].id,val,measureVal,daysTotal);
         if (!isNaN(res)) res=Number(res); else res=0.0;
         excel.set(0,offset,row+i+3,res.toFixed(2),regularStyle);
         totals[j*(fieldArr.length)+k]+=res;
@@ -465,7 +473,7 @@ function generateReview() {
           var prefix="person_0_period_"+periodNr+"_"+dayTypeArr[j].id+"_"+fieldArr[k].id+"_sub_"+l+"_";
           var val=document.getElementById(prefix+"value").value;
           var measureVal=document.getElementById(prefix+"measure").selectedIndex;
-          var res=calculateTotalValue(fieldArr[k].id,val,measureVal,daysTotal);
+          var res=calculateTotalValue(prefix,fieldArr[k].id,val,measureVal,daysTotal);
           if (!isNaN(res)) res=Number(res); else res=0.0;
           var x=res*24*kg*getMetsById(fieldArr[k].subs[l]);
           sum+=x;
