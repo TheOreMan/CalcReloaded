@@ -364,6 +364,10 @@ const lat = {
 
 const aboutText_lat=`
 <h1>Programma "Dzīves laika aktivitāšu kalkulators"</h1>
+<h2>Versija v4.3</h2>
+<ol>
+<li>Salabota kļūda ar METu rēķināšanu apakšaktivitātēm ar mērvienību "Stundas mēnesī".</li>
+</ol>
 <h2>Versija v4.2</h2>
 <ol>
 <li>Salabota kļūda ar stundu rēķināšanu pa dienām, izvēloties mērvienības "Stundas nedēļā" un "Stundas mēnesī".</li>

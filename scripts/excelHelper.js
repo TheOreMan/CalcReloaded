@@ -333,12 +333,13 @@ function calculateTotalValue(prefix,fieldId,inp,measure,totalDays) {
   if (vol)
     if (prefix.includes("_weekends_")) volValue=vol.innerText; else volValue=vol.value;
   if (fieldId=="sleep" || fieldId=="work") measure++;
+  //volValue=7;
   var res=inp;
   switch (measure) {
     case 0:res*=totalDays/1440;break;
     case 1:res*=totalDays/24;break;
     case 2:res*=totalDays/volValue/24;break;
-    case 3:res*=totalDays/30.4375/7*volValue/24;break;
+    case 3:res*=totalDays/30.4375*7/volValue/24;break;
   }
   if (!isNaN(res)) res=Number(res).toFixed(2); else res="---";
   return res;

@@ -356,6 +356,10 @@ const eng = {
 
 const aboutText_eng=`
 <h1>Program "Lifetime Activities Calculator"</h1>
+<h2>Version v4.3</h2>
+<ol>
+<li>Fixed an error with the calculation of METs for subactivities with the unit "Hours per month".</li>
+</ol>
 <h2>Version v4.2</h2>
 <ol>
 <li>Fixed an error with the calculation of hours per day when choosing the units "Hours per week" and "Hours per month".</li>

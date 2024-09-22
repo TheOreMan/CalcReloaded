@@ -351,6 +351,10 @@ const fra = {
 
 const aboutText_fra=`
 <h1>Programme "Calculateur d'Activités à Vie"</h1>
+<h2>Version v4.3</h2>
+<ol>
+<li>Correction d'une erreur dans le calcul des MET pour les sous-activités avec l'unité "Heures par mois".</li>
+</ol>
 <h2>Version v4.2</h2>
 <ol>
 <li>Correction d'une erreur dans le calcul des heures par jour lors du choix des unités "Heures par semaine" et "Heures par mois".</li>
